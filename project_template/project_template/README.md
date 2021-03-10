@@ -1,5 +1,5 @@
-# [PROGRAM NAME] 
-[a description of the program]
+# SUPER MILKBOY 
+A fun little Mario clone.
 
 ## Getting Started
 ---
