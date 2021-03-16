@@ -15,8 +15,6 @@ COIN_SCALING = 0.5
 
 # Movement speed of player, in pixels per frame
 PLAYER_MOVEMENT_SPEED = 5
-GRAVITY = 1
-PLAYER_JUMP_SPEED = 20
 
 class MyGame(arcade.Window):
     """
@@ -50,22 +48,16 @@ class MyGame(arcade.Window):
         self.coin_list = arcade.SpriteList(use_spatial_hash=True)
 
         # Set up the player, specifically placing it at these coordinates.
-        self.player_sprite = arcade.Sprite("assets/Milkboy01.png", CHARACTER_SCALING)
+        self.player_sprite = arcade.Sprite("assets/milkboy/Milkboy01.png", CHARACTER_SCALING)
 
         self.player_sprite.center_x = 64
         self.player_sprite.center_y = 128
         self.player_list.append(self.player_sprite)
 
-        # Creates a ground area for testing gravity.
-        # This shows using a loop to place multiple sprites horizontally
-        for x in range(0, 1250, 64):
-            wall = arcade.Sprite(":resources:images/tiles/grassMid.png", TILE_SCALING)
-            wall.center_x = x
-            wall.center_y = 32
-            self.wall_list.append(wall)
+        #TODO: Add Ground and other level assets
 
         # Create the 'physics engine'
-        self.physics_engine = arcade.PhysicsEnginePlatformer(self.player_sprite, self.wall_list, GRAVITY)
+        self.physics_engine = arcade.PhysicsEngineSimple(self.player_sprite, self.wall_list)
 
     def on_draw(self):
         """ Render the screen. """
@@ -82,8 +74,9 @@ class MyGame(arcade.Window):
         """Called whenever a key is pressed. """
 
         if key == arcade.key.UP or key == arcade.key.W or key == arcade.key.SPACE:
-            if self.physics_engine.can_jump():
-                self.player_sprite.change_y = PLAYER_JUMP_SPEED
+            self.player_sprite.change_y = PLAYER_MOVEMENT_SPEED
+        elif key == arcade.key.DOWN or key == arcade.key.S:
+            self.player_sprite.change_y = -PLAYER_MOVEMENT_SPEED
         elif key == arcade.key.LEFT or key == arcade.key.A:
             self.player_sprite.change_x = -PLAYER_MOVEMENT_SPEED
         elif key == arcade.key.RIGHT or key == arcade.key.D:
@@ -92,7 +85,11 @@ class MyGame(arcade.Window):
     def on_key_release(self, key, modifiers):
         """Called when the user releases a key. """
 
-        if key == arcade.key.LEFT or key == arcade.key.A:
+        if key == arcade.key.UP or key == arcade.key.W:
+            self.player_sprite.change_y = 0
+        elif key == arcade.key.DOWN or key == arcade.key.S:
+            self.player_sprite.change_y = 0
+        elif key == arcade.key.LEFT or key == arcade.key.A:
             self.player_sprite.change_x = 0
         elif key == arcade.key.RIGHT or key == arcade.key.D:
             self.player_sprite.change_x = 0
