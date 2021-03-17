@@ -1,6 +1,7 @@
 """
 Milkboy Alpha
 """
+from walls import *
 import arcade
 
 # Constants
@@ -16,7 +17,7 @@ COIN_SCALING = 0.5
 # Movement speed of player, in pixels per frame
 PLAYER_MOVEMENT_SPEED = 5
 
-class MyGame(arcade.Window):
+class MyGame(arcade.Window, Wall):
     """
     Main application class.
     """
@@ -26,10 +27,12 @@ class MyGame(arcade.Window):
         # Call the parent class and set up the window
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 
+        # Create objects needed to use for program:
+        self.walls = Wall()
+        self.walls.setup()
         # These are 'lists' that keep track of our sprites. Each sprite should
         # go into a list.
         self.coin_list = None
-        self.wall_list = None
         self.player_list = None
 
         # Separate variable that holds the player sprite
@@ -42,10 +45,11 @@ class MyGame(arcade.Window):
 
     def setup(self):
         """ Set up the game here. Call this function to restart the game. """
+        """ Also used to spawn walls and coins """
         # Create the Sprite lists
         self.player_list = arcade.SpriteList()
-        self.wall_list = arcade.SpriteList(use_spatial_hash=True)
-        self.coin_list = arcade.SpriteList(use_spatial_hash=True)
+        self.coin_list = arcade.SpriteList()
+        self.walls.wall_list = arcade.SpriteList()
 
         # Set up the player, specifically placing it at these coordinates.
         self.player_sprite = arcade.Sprite("assets/milkboy/Milkboy01.png", CHARACTER_SCALING)
@@ -54,7 +58,8 @@ class MyGame(arcade.Window):
         self.player_sprite.center_y = 128
         self.player_list.append(self.player_sprite)
 
-        #TODO: Add Ground and other level assets
+            #TODO: Add Ground and other level assets 
+        
 
         # Create the 'physics engine'
         self.physics_engine = arcade.PhysicsEngineSimple(self.player_sprite, self.wall_list)
@@ -65,8 +70,8 @@ class MyGame(arcade.Window):
         # Clear the screen to the background color
         arcade.start_render()
 
-        # Draw our sprites
-        self.wall_list.draw()
+        # Draw our sprites (e.g, draw all walls created in the list
+        self.walls.wall_list.draw()
         self.coin_list.draw()
         self.player_list.draw()
     
@@ -100,7 +105,22 @@ class MyGame(arcade.Window):
         # Move the player with the physics engine
         self.physics_engine.update()
 
+    # TODO Danny: Make walls that break and don't break, and all walls cannot be broken by enemies*. Next, implement coins and collectables.
+    #Parent class to all walls
+    
+
+        """
+        Load specifics of a BreakableCracker wall, they are bigger and they break!
+        """
+        def draw(self):
+            self.wall_list = arcade.SpriteList(use_spatial_hash=True)
+            self.platform_layer_name = 'brakeable_cracker'
+            self.texture = arcade.Sprite("assets/milkboy/Milkboy01.png")
+            
+
+
 def main():
+
     """ Main method """
     window = MyGame()
     window.setup()
