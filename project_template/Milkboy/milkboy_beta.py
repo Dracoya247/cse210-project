@@ -9,7 +9,7 @@ SCREEN_HEIGHT = 650
 SCREEN_TITLE = "Platformer"
 
 # Constants used to scale our sprites from their original size
-CHARACTER_SCALING = 1
+CHARACTER_SCALING = 0.5
 TILE_SCALING = 0.5
 COIN_SCALING = 0.5
 SPRITE_PIXEL_SIZE = 128
@@ -58,8 +58,8 @@ class MyGame(arcade.Window):
         self.score = 0
 
         # Load sounds
-        #self.collect_coin_sound = arcade.load_sound(":resources:sounds/coin1.wav")
-        #self.jump_sound = arcade.load_sound(":resources:sounds/jump1.wav")
+        self.collect_coin_sound = arcade.load_sound(":resources:sounds/coin1.wav")
+        self.jump_sound = arcade.load_sound(":resources:sounds/jump1.wav")
 
         arcade.set_background_color(arcade.csscolor.CADET_BLUE)
 
