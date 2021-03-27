@@ -991,17 +991,17 @@
    <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-9.png"/>
   </tile>
  </tileset>
- <layer id="2" name="Coins" width="90" height="15" visible="0">
+ <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztl00KACEIhbv/TbzlrILBhTTmz3P0g6CN9nyR2Fo6SBkXSQWNEvRayDl57tt4L32RoNSRfb4WBO++4qXX04eKPnvRxYcudWbT3WeL+qP6E8JdaWq1njMQfNigzFB/p6LPXv8X69zE9pH9zOIsa63c4+y+Jek5yVnx7QzDIPMAacIq6g==
   </data>
  </layer>
- <layer id="4" name="Background" width="90" height="15" visible="0">
+ <layer id="4" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt07ENwCAMAEGXZAoGYQjGSwHDhoKOBgGJY/iTXNG8JSMCfCNoBwBV1A4A0Li0AwxL2gE/xU0B57Dw3+8yWWy0Yi9u8n3Uqlv3dXq9tQ/29QAXhwLc
   </data>
  </layer>
- <layer id="6" name="Foreground" width="90" height="15" visible="0">
+ <layer id="6" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt1rkJACAQBEA7tAkbsmMjU0PvYQYuX1gWbgyA/lZ0AAC+m9EBSM9/UN/duS6hj2x73o+jvgNFwwYm
   </data>
@@ -1016,7 +1016,7 @@
    eJztl2EOwiAMhVlcOMeu5A/Nombi/S8hxJE0TQstgWHEl3x/DDL69oBuNn8dobn3AgbR6D5vHud5NX5Oic8X81nbNTFmK1pNPdmdlJ6e1XPewYp1QlI1c5pMmzwHj1fi91CXQ+AcWZP36Oa5EzyIsdbI5mwpqc8nxZzRYyofv6hJOAb6zL3znM8wp6l9WKqeWcypxGcsvD+pfTmqqDOQI5yNI/Qb0BOqrzgiT9Dn+Lzeue19b2HhdZSsq2aesTcuw0iS+sxlLPVuW/Qc8btCQm1pcww9cwySezSn2j7DnlEClram0nOL+t/C8G0+az0OOKPLDrwvofA8GMk3+8KgmZfrcahaS9H424Oc3oOeTQ4=
   </data>
  </layer>
- <layer id="3" name="Don't Touch" width="90" height="15" visible="0">
+ <layer id="3" name="Don't Touch" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztzrENACAIAEF2kuEc35YOYmFh7pLvPwIAAAAAuLVLE9n06uN3q+kAo2IGCQ==
   </data>
