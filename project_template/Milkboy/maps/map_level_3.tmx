@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="general_tileset.tsx"/>
+ <layer id="3" name="Coins" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEOgyAQBVDufxKO2U0Xja2V6oADfS8xJhoTgT8glgIAAAAAwKzq8wDeqQ8gq+3cdHauMscBcMbR+mF9IaOeuaybM8zkzvz67zKOfu6rlvg8G7Ox/q2/f81rVMZb9xHR4xFZn7XMV/O93nkWr7nK3v679tp39cunMdm71vsdjvKxSg19a8fM+4GW2hnRviz5aM1rVN+vss5cbcOV2tp7bsT8l13kN1zr/RXyDNk8AKhVPlk=
+  </data>
+ </layer>
+ <layer id="5" name="Background" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAGo+gAAB
+  </data>
+ </layer>
+ <layer id="6" name="Breakable" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKwCAMBMD8/yP5Zq89tNSCTaPM3MVEsyBGAAAAAACwuvy7AGhMPgAAAADmyvDnAndko5bzhv15dzCDGVpPRl3+M2r3e+vrmjr2PNNVf089d5+H6nxUrjuvH+mx4x3BTg6RKRWI
+  </data>
+ </layer>
+ <layer id="2" name="Platforms" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmN1OwzAMhf3a7GKUIUC8NUwoIjOx45+ENtv5JN9Mjps55yRpT0R0QiAQUwKAe4VrHP4A4JeWxuENAH6QdA5vAKBrHd4Aj05P7/BGns8q3pO1Plg9HmAsFs3DG3Gumq37t1HcI1dvvJB+rsMjY7HqHt7ww72R8YjFG/DIeKT702W3Gd0HkjciHvF44+isdh/s9RU+8dPzhscjGW9IWmy9tzwJv4+O1lmXidmssu+sgtUbFo9EvSFpseCZ39Ej4pEz+f2sUfJWOA8l+Hcfy92mHmPJl7xRY/VIxhta3t56nuURLZ7pL95nSPB+r+iRltY20jXPx/Tye7osSDkb3a5pxBvWdd1bz/8dEtkafM1LzZU8ou3DG7U1L42R8nt3qhrvGmrjonX31ute/mi9S0f9oeVIY47yTcKzD290e/6e2ZhCna+9c0pkv3NEvNEak1n/iCZH1o3W4XjWwvJsTx1r/kw8a6Zpw1p35H/3+sirk968e3kj/v+Ifo2Yk6XXrf5INaV6ozWSxbN3SD4ovH7Hm1Db+gypbxdDjkbWo1bvZLUn3Ws4vNet30qtkXrTamT3wBl7aJYjzWUGM8+vRyR6ViIQCKIvpUqQhQ==
+  </data>
+ </layer>
+ <layer id="4" name="Foreground" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJAAAIA7D+v4gfe4HuQgJJAAAAAAAAAAAAAAAAAICPegkktQRuA3CgBsE=
+  </data>
+ </layer>
+ <layer id="1" name="Don't Touch" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt07EJACAQBEF7Env78k1NRMHgH5yBzS+51gAAAAAAAAAA4E1kDwC+FksAAKuRHFTWk4PK/AP2/ONOHAKobgKsNB9h
+  </data>
+ </layer>
+</map>
