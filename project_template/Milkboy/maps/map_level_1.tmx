@@ -4,9 +4,13 @@
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
 <<<<<<< HEAD
+<<<<<<< HEAD
    eJztl90KwCAIhXv/J5lvuavBEJHh1I7pB0EE+XMqsbVskHFfJhVi1KDXQLbJbf/dHxVfFJewhpLHbv9WJO0knZGI0jryDBHuKApddOiS52666+yRf1Z9QjgrS67efQaCDg8oPdTpVNQ56v/ibZvYPLOeefjyjpVrvLtuafF8sVnx7QzDoHMD5QwsOg==
 =======
    eJztl00KACEIhbv/TbzlrILBhTTmz3P0g6CN9nyR2Fo6SBkXSQWNEvRayDl57tt4L32RoNSRfb4WBO++4qXX04eKPnvRxYcudWbT3WeL+qP6E8JdaWq1njMQfNigzFB/p6LPXv8X69zE9pH9zOIsa63c4+y+Jek5yVnx7QzDIPMAacIq6g==
+>>>>>>> ezra
+=======
+   eJztl0EKwDAIBPP/l9Rf9pJC8RAa6+paOyDkEl0XImYMG2K8F0kFjSvkFsw5de6391H6ImHpI7u+FQbvdkHpRfpQ0WcUXXzo0mc2aJ+PGax49B81nxjehKVX7z2DwYcLlh3q61T0GfV/8c4t6hw5zzxqeWvVHmfPrZWeJzkrvh1mmPeZnz6c+hIs4g==
 >>>>>>> ezra
   </data>
  </layer>
@@ -23,18 +27,26 @@
  <layer id="5" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
 <<<<<<< HEAD
+<<<<<<< HEAD
    eJzt1zEKACAIRmG9/0HymDW0NSX9hPg+iDaJNwSaAcga68S+XwvBzKpUncPoDABAVf77AQ240bk6xZ6CU/fO2X/idhfr3hkaE/QQCIY=
 =======
    eJzt1sEJADAIQ1HdfxA7ZmdoJS3B/84SJAcxAkBHmeW6UvRRolwAAKCXvxcYIIOe3fHrvjG959s7sQ7np/cMjQ3uBQXl
+>>>>>>> ezra
+=======
+   eJzt1sEJAEAIA8HYfyG2eUUcUYI7BYjsQ5QA/OiwuakcPdo0FwAA+NX2AgeU6JyOX3fG9c5Td+J6Z3g8RLYFPQ==
 >>>>>>> ezra
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
 <<<<<<< HEAD
+<<<<<<< HEAD
    eJztl1EOgjAMhkdCOAdX8kFD1OC8/yXcIktqbbu1DpaAX/K/kDHan66U3v3Zgr51AAdhTz53hnvmIB/0rBvKFxafz+4d20VYM5uisdO5T5+HRRKPoCnotAiT8oSScpZiW6Oeo8cTcT3m5ZFwHQ0u79E16EboTqwdXNmea1Lqs+Y8Jo+p+tgjJd5gn7l3ntsL1ql0Dq20rMUcFp8x+HxS5/KoUD2QU+yNe5o3OKAn1FyxRT1Bn9Pz4HMss9KvtP5uYXAclrikesazUg7sjc/oSJT2Da7GpHe7xsyR/itKVBttHUPPPKMa/aK2z3BmLBFGm5O1b1H3jYy0MVHra/qs9TjKO13twO8lBO+DVfLPPjLS7MvNOFSuVmn8baEcL5kSTRE=
 =======
    eJztV9EKwjAM7HDsO/ZLPihDRevf+Zm2uEI4mi7p4jacB4cwa5qc1zRr3R9LoF07gZ1g7zrfA33g88v71Oh8cp/czoU196ps7NCN5L6LeAQOgceRiFQnZalmDo3T6czljYgaD5nnsS4PpD7qgBwugdcMb0zOkphaaGJJdT4oYiaNqT8s69saGuEaqjP3n0/pTH1aOoe1mOPFDj6tgTq/RuKakp/xfObO5RaxxPnJ9UCOsTfuYd6gmuTmiiX8RHVO+9F9JP3HGlb3lpWvMU5N3JKfG6fTGbXxE+R+94uQ9g3OY6UZ1fIuTEjvFRJaQ+sFqplnOKdfpHysdaYzo4QIbU1zZxyKnqFFX7bUWatxpHc679D7kgLjICXv7D1DTVxuxsnVWkuNvmtwCm+2YE6v
+>>>>>>> ezra
+=======
+   eJztl2EOgjAMhUcknIMr+UND1OC8/yXcIktemnW0owIRv+TFBLG0z24rrfuzBu3WCRyEo/s8Bvmg15efU+PzxX1yuxbuGauysaObxH0XeQYNQedJlFQnqlQzR+N0PnN5U6LHQ+Z6rMsTYR91RBy3oHtGDyZnSUwtmlhSn0+KmMlj7A/L+vZGI7wHfeb+8zmfsU9L67CWJb3YkU9ranym0PWZW5d7ZI31k9sDOcW98QjzBnqSmyvW6Cf0OT0PnyNZF9ZYnVtWfU3j1MQt9XPjdD5Tb/yMuN/9ItJ9g+ux0oxqeRYm0nuFRNZoewE984yW7BcpH2ufcWaUiKKtaemMg/SMLPZlS5+1Hkd5p+sdPC8RGodK8s7eM9LE5WacXK210vi7heZ4A9SfTV8=
 >>>>>>> ezra
   </data>
  </layer>
