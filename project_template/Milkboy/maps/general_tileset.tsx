@@ -458,33 +458,33 @@
   <image width="128" height="128" source="../images/items/star.png"/>
  </tile>
  <tile id="166">
-  <image width="136" height="136" source="../assets/cookie_bricks/cookie_bricks01.png"/>
+  <image width="128" height="128" source="../assets/cookie_bricks/cookie_bricks.png"/>
  </tile>
  <tile id="167">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-1.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-1.png"/>
  </tile>
  <tile id="168">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-2.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-2.png"/>
  </tile>
  <tile id="169">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-3.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-3.png"/>
  </tile>
  <tile id="170">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-4.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-4.png"/>
  </tile>
  <tile id="171">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-5.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-5.png"/>
  </tile>
  <tile id="172">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-6.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-6.png"/>
  </tile>
  <tile id="173">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-7.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-7.png"/>
  </tile>
  <tile id="174">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-8.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-8.png"/>
  </tile>
  <tile id="175">
-  <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-9.png"/>
+  <image width="128" height="128" source="../assets/shiny_coin/shiny_coin-9.png"/>
  </tile>
 </tileset>
