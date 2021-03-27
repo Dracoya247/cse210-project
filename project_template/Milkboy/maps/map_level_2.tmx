@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="8" nextobjectid="1">
+=======
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
  <tileset firstgid="1" name="tileset" tilewidth="136" tileheight="136" tilecount="162" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
@@ -489,6 +493,7 @@
    <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-9.png"/>
   </tile>
  </tileset>
+<<<<<<< HEAD
  <tileset firstgid="177" source="general_tileset.tsx"/>
  <tileset firstgid="353" name="tileset_all_maps" tilewidth="136" tileheight="136" tilecount="166" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
@@ -994,31 +999,57 @@
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt2FEKgDAIBmC9ZV2xM/YQIVHE2kLXNu3/wJdGjJQ5iYhoZomUp+dv1+GUyzOAdxNL/NnKEgBQ13F/4h7V08xz2lyjVu20yPF9D+uei+31MFLnJHd2atdh57EWX/cWT32rlAvLt/Tu4b33v4r8P2SkPI+iNMNgxolpAz1aFIc=
+=======
+ <tileset firstgid="177" source="level_1_tiles.tsx"/>
+ <layer id="2" name="Coins" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt2G0KgDAIgGF3zK7YKUdEFGFbaO1D3gf2pwhJmZOJiCxpX5qn52/f41TKMwAA0B3nJ+eonWWes+aaWrXTIsf3GN6Yq+/zMLR9Uto7X9dhM2Mt/u4tM/WtWi48/9K7h/eOfxX5PmSkPI+iNsMw48SUAWEJEds=
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt1YsNACAIQ0H2n0inYCRdQRKhft5N0NCQmqGSqwNgG7oE8kX/rKekuFdTBwCCft9WN25wAjpABTYaeN9QB8CSCdt3CNI=
+=======
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt1aENADAMA7D2hz20/58aLk7RZEuBgVGqAICfnM76t2eAXLpLAGDyrWx4g+oBSA==
+=======
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt0DEKADAIBEHzyvz/J2KRPp2gM3D9sREAAADAZvd0P9hB5z/V6a37B7MlKIwCEQ==
+=======
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJztllEOwiAQROmPXGN/tRpTb+s9PKCStAldd2HAbUkqL5lohV3sMBUH19mDoXH9v3D+6BJpFMZGoS4wROqU8cqM833R9kirS805KlIOcz53ykF9DlkszaGW+9Z5vgMqqXlkarXf1T2f73gvLNa7ubyHZKwHOO8oBI+pgSZw3lP53mjWTrOsQbJZmlMJ7XOUCZhT859suX8NyYMr0NezNahSe7OFz7/cf3xOpM4Np9Sn5myFd+v959cB7rNnrzQL9Rn1eCE1jvTh/WrwTvZKel/L4jMp4+TWObM6p1NrkXJtAdIPyVSuByflM20sa3I9rdau6dPS565vvQEVlzuj
+=======
+   eJztllEOgjAMhocPoqdwr4rGgHoO72A8hNfQN28rJCMpv+0oc4BRvuQPYrsO/nVAYiaGIBl5/L+wLrUhyphYxoyrSIgm4oLrIq2RNM6X8008nGIw9WEYy475Wp+rXuzah1LfD9HPV09sr9Ad5Mst4Lzm4o7Sc3XI/U3XIsZ8O9PuoY2sQpn3K1Qe2xGUK/OewnX7eo3uy7kTsnIKRdObXfuUQ/pfS67ICfkmq+//JIjzYMvUwTVIYQ4bqKHpw+dP7p++J+ga3Bhx4xFfLBapaa4/nlegzykcrRP6vBDm1Hpc44tr6tD8mXBNbaSG94r7HUrtsy11ZGRNs89ivac5MN6Wj2h81tTT7N22Ggj1+QCyPQuZEUn4vnm5mhiX5sbrCK1zFsaM6fOkd70AgAhFeA==
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt0MENABEAAEG60X9L6MP/Di9CZCbZBjYEAACAN9RB3CnFfzBTOrFe/sQePp/XAOp0Ebg=
+=======
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
 </map>

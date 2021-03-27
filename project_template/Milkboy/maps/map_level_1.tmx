@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+<<<<<<< HEAD
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <tileset firstgid="177" name="tileset_all_maps" tilewidth="136" tileheight="136" tilecount="166" columns="0">
+=======
+ <tileset firstgid="1" source="level_1_tiles.tsx"/>
+ <tileset firstgid="170" name="tileset_all_maps" tilewidth="136" tileheight="136" tilecount="166" columns="0">
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../images/tiles/waterTop_low.png"/>
@@ -502,7 +507,11 @@
    <image width="128" height="128" source="../images/items/star.png"/>
   </tile>
  </tileset>
+<<<<<<< HEAD
  <tileset firstgid="489" name="tileset" tilewidth="136" tileheight="136" tilecount="162" columns="0">
+=======
+ <tileset firstgid="482" name="tileset" tilewidth="136" tileheight="136" tilecount="162" columns="0">
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../images/tiles/boxCrate.png"/>
@@ -993,12 +1002,20 @@
  </tileset>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJztl+sKwCAIhdv77UV9y/0aDAsZzstx9kEQQV5OJTaGDlLui6RCjBL0GMg2ue2v+73i8+I85jWUPLL9a1lpt9IZCS+tPc8Q4Y6i0EWHLnlm011ni/yj6hPCWWlyte4zEHS4Qemh/k5Fnb3+L9a2ic0j65mFL+tYucbZdUuK543Nim9ns9nIXLeWK4Q=
+=======
+   eJztl00KACEIhbv/TbzlrILBhTTmz3P0g6CN9nyR2Fo6SBkXSQWNEvRayDl57tt4L32RoNSRfb4WBO++4qXX04eKPnvRxYcudWbT3WeL+qP6E8JdaWq1njMQfNigzFB/p6LPXv8X69zE9pH9zOIsa63c4+y+Jek5yVnx7QzDIPMAacIq6g==
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="4" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt07ENwCAMBVGXYQoGyRAZEIalcZcGkcCPyT2Jys0h2WbAGqc6AHCXOgDATVIHBFbUAR/FTgH/EeXeq8VpxT6Oh/NRb+169tdr1n+wrwbF6wJF
+=======
+   eJzt07ENwCAMAEGXZAoGYQjGSwHDhoKOBgGJY/iTXNG8JSMCfCNoBwBV1A4A0Li0AwxL2gE/xU0B57Dw3+8yWWy0Yi9u8n3Uqlv3dXq9tQ/29QAXhwLc
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="6" name="Foreground" width="90" height="15">
@@ -1006,17 +1023,30 @@
    eJzt1rkJACAQBEA7tAkbsmMjU0PvYQYuX1gWbgyA/lZ0AAC+m9EBSM9/UN/duS6hj2x73o+jvgNFwwYm
   </data>
  </layer>
+<<<<<<< HEAD
  <layer id="5" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt1TEKADAIBEHzyPz/K6nTCh4WM439wmEV0HXPf5mhM+xllxk6A9Dhf2TonKEzEx4EbAMH
+=======
+ <layer id="5" name="Breakable" width="90" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1tENACAIA1HYfxHGdAY11TS9NwAh90GoAnBjzOa6UvQY0VwAAKDXvxcI0EVnd/y6b6R3Pr0Tu93SO0NjAU08Be0=
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJztl2EKgzAMhTsQz+FRdoX92JBtuO7+l1jLLISQpE1WLdg9+P5IrenztcbB/bWHhtYFdKIj+Xw+6e9ZAj7wrlwLlsXnq/vWdhPGLKZq7IoeQ5/HFUmvwBy4rGCldUKkNUu1bZHn6PFMXI/r8gico9HlPboHHgRPYuzoyubcUqU+a/Zj8pjKR6/CPnPvPOczzKm0D61qmcUayuUZ709qX/Yq6gzkiGfjkfoNTtATqq/YI0/Q5/Q8+BxLr/SrWn+3sHAdlrqkPONeqaQeWIPP0JNKzw0uY9K73aLnSP8VJdSWNsfQM89Q47yo7TPsGUvA0q7Jem5R900M2pqo8TV91noc8U6XHfi9hMLzYEr+2ScGzbxcj0Ot1YrG3xbk9AEWP1FP
   </data>
  </layer>
  <layer id="3" name="Don't Touch" width="90" height="15">
+=======
+   eJztl2EOwiAMhVlcOMeu5A/Nombi/S8hxJE0TQstgWHEl3x/DDL69oBuNn8dobn3AgbR6D5vHud5NX5Oic8X81nbNTFmK1pNPdmdlJ6e1XPewYp1QlI1c5pMmzwHj1fi91CXQ+AcWZP36Oa5EzyIsdbI5mwpqc8nxZzRYyofv6hJOAb6zL3znM8wp6l9WKqeWcypxGcsvD+pfTmqqDOQI5yNI/Qb0BOqrzgiT9Dn+Lzeue19b2HhdZSsq2aesTcuw0iS+sxlLPVuW/Qc8btCQm1pcww9cwySezSn2j7DnlEClram0nOL+t/C8G0+az0OOKPLDrwvofA8GMk3+8KgmZfrcahaS9H424Oc3oOeTQ4=
+  </data>
+ </layer>
+ <layer id="3" name="Don't Touch" width="90" height="15" visible="0">
+>>>>>>> 2bf5f62c085d9cb17ce5eec02083140d48c6e9a9
   <data encoding="base64" compression="zlib">
    eJztzrENACAIAEF2kuEc35YOYmFh7pLvPwIAAAAAuLVLE9n06uN3q+kAo2IGCQ==
   </data>
