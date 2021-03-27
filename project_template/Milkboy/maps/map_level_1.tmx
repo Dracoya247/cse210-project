@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
- <tileset firstgid="1" source="level_1_tiles.tsx"/>
- <tileset firstgid="170" name="tileset_all_maps" tilewidth="136" tileheight="136" tilecount="166" columns="0">
+ <tileset firstgid="1" source="general_tileset.tsx"/>
+ <tileset firstgid="177" name="tileset_all_maps" tilewidth="136" tileheight="136" tilecount="166" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../images/tiles/waterTop_low.png"/>
@@ -502,7 +502,7 @@
    <image width="128" height="128" source="../images/items/star.png"/>
   </tile>
  </tileset>
- <tileset firstgid="482" name="tileset" tilewidth="136" tileheight="136" tilecount="162" columns="0">
+ <tileset firstgid="489" name="tileset" tilewidth="136" tileheight="136" tilecount="162" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
   <tile id="0">
    <image width="128" height="128" source="../images/tiles/boxCrate.png"/>
@@ -991,22 +991,22 @@
    <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-9.png"/>
   </tile>
  </tileset>
- <layer id="2" name="Coins" width="90" height="15">
+ <layer id="2" name="Coins" width="90" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJztl00KACEIhbv/TbzlrILBhTTmz3P0g6CN9nyR2Fo6SBkXSQWNEvRayDl57tt4L32RoNSRfb4WBO++4qXX04eKPnvRxYcudWbT3WeL+qP6E8JdaWq1njMQfNigzFB/p6LPXv8X69zE9pH9zOIsa63c4+y+Jek5yVnx7QzDIPMAacIq6g==
   </data>
  </layer>
- <layer id="4" name="Background" width="90" height="15">
+ <layer id="4" name="Background" width="90" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt07ENwCAMAEGXZAoGYQjGSwHDhoKOBgGJY/iTXNG8JSMCfCNoBwBV1A4A0Li0AwxL2gE/xU0B57Dw3+8yWWy0Yi9u8n3Uqlv3dXq9tQ/29QAXhwLc
   </data>
  </layer>
- <layer id="6" name="Foreground" width="90" height="15">
+ <layer id="6" name="Foreground" width="90" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJzt1rkJACAQBEA7tAkbsmMjU0PvYQYuX1gWbgyA/lZ0AAC+m9EBSM9/UN/duS6hj2x73o+jvgNFwwYm
   </data>
  </layer>
- <layer id="5" name="Breakable" width="90" height="15" visible="0">
+ <layer id="5" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt1tENACAIA1HYfxHGdAY11TS9NwAh90GoAnBjzOa6UvQY0VwAAKDXvxcI0EVnd/y6b6R3Pr0Tu93SO0NjAU08Be0=
   </data>

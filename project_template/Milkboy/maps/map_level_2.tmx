@@ -489,7 +489,7 @@
    <image width="72" height="72" source="../assets/Shiny Coin/Shiny Coin-9.png"/>
   </tile>
  </tileset>
- <tileset firstgid="177" source="level_1_tiles.tsx"/>
+ <tileset firstgid="177" source="general_tileset.tsx"/>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt2G0KgDAIgGF3zK7YKUdEFGFbaO1D3gf2pwhJmZOJiCxpX5qn52/f41TKMwAA0B3nJ+eonWWes+aaWrXTIsf3GN6Yq+/zMLR9Uto7X9dhM2Mt/u4tM/WtWi48/9K7h/eOfxX5PmSkPI+iNsMw48SUAWEJEds=
