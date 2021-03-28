@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="general_tileset.tsx"/>
+ <layer id="4" name="Background" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENwCAMAEGXZAoGYQjGSwHDhoKOBgGJY/iTXNG8JSMCfCNoBwBV1A4A0Li0AwxL2gE/xU0B57Dw3+8yWWy0Yi9u8n3Uqlv3dXq9tQ/29QAXhwLc
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztl1EOgCAMQ7n/SeCWfpEsjSCMbRblJQQ/pIyGzZmSjqJcF0lkjBmGBUUMKzw0UXt1fU/Hw2cPPH2ejUPLmz4zeDeLJt4s5pbPnj6w+xx595h9sKDeMTxnhvmwxp3PHnV0h2+ghUZEXjLkvuas1n0Ggw8Vlh7qK7TqxY4+e/2/PGmP1Fv5ToHnyHpmsZd1rOjxqteoO0svnhHNHXOHGeZ+5vAfLvpfP0I=
+  </data>
+ </layer>
+ <layer id="5" name="Breakable" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJAEAIA8HYfyG2eUUcUYI7BYjsQ5QA/OiwuakcPdo0FwAA+NX2AgeU6JyOX3fG9c5Td+J6Z3g8RLYFPQ==
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztl1EOwiAMhllcdo5dyQfNombi/S8hxJE0DYW2VjadX/K/6AbtTymsd39a0K8dwE7Yu89zkA96fHgejc8n94rtXHhmVkVjx7CI+i9yD5qCjoswKU+oUs4UnZP5TMWNiR5Pmd9jXh4J1tGARHEJumZ0I2LmjCmltoYQrs8HwfzJY1gflvltjY75DPSZWvOaz7BOS/tQi3UtWqLxGYP3Z25fbpEWa5LrgZRib/zG+4bUR+hJ7l7Rop6gz2k+OA9nX1hjdW5Z1TUeRzNuqZ47J/MZe+Mrot77Rbh9g6qx0v3G8ixMpO8KjqyR1gL0zBN6p1+keKx9hndGjjDSnLR7LPfeSMiiL1v6LPU4yjtZ7cDzEoLHweJ8s4+EJONSd5xcrlpJ/F1DNZ7TN01f
+  </data>
+ </layer>
+ <layer id="3" name="Don't Touch" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAIAEF2kuEc35YOYmFh7pLvPwIAAAAAuLVLE9n06uN3q+kAo2IGCQ==
+  </data>
+ </layer>
+ <layer id="6" name="Foreground" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1rkJACAQBEA7tAkbsmMjU0PvYQYuX1gWbgyA/lZ0AAC+m9EBSM9/UN/duS6hj2x73o+jvgNFwwYm
+  </data>
+ </layer>
+</map>
