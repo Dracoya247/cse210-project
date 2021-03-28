@@ -324,7 +324,8 @@ class MyGame(arcade.Window):
         # Create the 'physics engine'
         self.physics_engine = arcade.PhysicsEnginePlatformer(self.player_sprite,
                                                              self.wall_list,
-                                                             gravity_constant=GRAVITY)
+                                                             gravity_constant=GRAVITY,
+                                                             ladders=self.ladder_list)
 
     def on_draw(self):
         """ Render the screen. """
@@ -341,6 +342,7 @@ class MyGame(arcade.Window):
         self.player_list.draw()
         self.foreground_list.draw()
         self.breakable_list.draw()
+        self.ladder_list.draw()
 
         # Draw our score on the screen, scrolling it with the viewport
         score_text = f"Score: {self.score}"
