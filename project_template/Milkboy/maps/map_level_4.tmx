@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
- <layer id="1" name="Tile Layer 1" width="200" height="20">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="general_tileset.tsx"/>
+ <layer id="6" name="Coins" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAGo+gAAB
+   eJzt2k0SwiAMBlDuf5Ie06VK05AW6s/Mexu1lgyLfFYGWgMyW/faX9va2Oie6Puja9E8onGVecGsrB+r+RjVj/o+ql3Nh2zwL7Jefe3lre1zcZSb/nMlW/CLsl6tPI+u5COqDQDAPfzv4lv6NbZehKd+bXwmH1G2ZrMmo/Au2zuBT1vdd6P9ksrY6p4L3Gnlb/SZcyrV8yhHNeSDlbK1QLbmyPbC+/FX5zRTA1bJzilm90fvV/Sz5wAAAAAAD7FXUBE=
+  </data>
+ </layer>
+ <layer id="5" name="Background" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACEMBEFXC/13QA46vT4CxEzi1MnKrgIAAAAA4AZtmgDwR9+9ABxs7qPV+nP5wXiV+wFZL41Aog/I9AGZPiDTB2T6gEwfkGkDvg0mhwk9
+  </data>
+ </layer>
+ <layer id="4" name="Foreground" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt17EJACAMBMAMK9nHjcXCxspGA3IHgZRfPUkEALC06gAAAJe4cwD+MPs8q0MAAHwut91PDQAAAABv9cMBAADuGYHOCG0=
+  </data>
+ </layer>
+ <layer id="3" name="Breakable" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2jENAAAIA0H8G8EmOysskLvkt0poBDCRSxv4IlsAAAAAAAAAAADc4fsFAAAAQAGe2QU5
+  </data>
+ </layer>
+ <layer id="2" name="Platforms" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmtkKwjAQRfNUv1SKC7g8+P3qQ7AM6TQzkwar58DFaNMQ8N5m65hSGhFCswLYOt+aj+tLt5fuwXYAvgWZj4dR5/5dVrkUyof06e+xe49g60THmqknayjVl78tfbe2z/wRIrTwjzUnLZiOZRrkAyK09M9cTqxzt6X53CPNzw0l5AMirOEfmZPW+wdavXdGhkJdgFqm69Ye/mm5r2a5Z1DaAahhTf9EMqiNG552yAl4WMs3co2wxPsMRZ6fjKJs6WeeY5EPiJB9s1eUOaX69XStJ7W9L4u3B+Ua+QAvnjVAi3tr94St2SjlhHyAl97eaXVWMiR9zJheJx/gpZd3oufgGS0Tc5AP8CK9cxGf+d1D+f6hrCfLLd5Z3AlFIR9ghWdrDOu6C7bFP/2n3jPJpTbhd/n1519tJsgHlPD4B6F/0hMKTCp1
+  </data>
+ </layer>
+ <layer id="1" name="Don't Touch" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJADAIA0D3/5Ru3B0KVqp3kAEMMQIAAAAAAAAAAAAAAIAf7ObJ6IE5VvNk9MBM1Vt+/RO3twNMdgCgWW10
   </data>
  </layer>
 </map>
