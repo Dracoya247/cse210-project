@@ -2,6 +2,7 @@
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="11" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <layer id="3" name="Background" width="90" height="15">
+<<<<<<< HEAD
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDDRgHGgHjIIRCzgH2gFUBsT4ZwbNXTF4AMcA2q0/gHZTAmyR8CigHQCFrwzDaDijA3koHgUDC0bjYBTQAwxkHT0KRsFwAP4D7YBRMGwAADxVAuQ=
   </data>
@@ -9,21 +10,42 @@
  <layer id="10" name="Ladders" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+=======
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJACAMRNHY6RTO4CTuv42NjaWceKD/QfofUiQCgFtyB+BbxR1w2Gv7qLI7AMCWOgde3AA38KMBTXcHCJo7AIsBCsoBAQ==
+>>>>>>> ezra
   </data>
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
+=======
+   eJztl1EKwCAIhr3/SdYtI9hDSLM0NWt94EvhtN8kBwCQXmvxtT66H4WnMrzG9ef41VA6a0HlJ81byz8a3LNIz8+9Y1y/KFD3bvYb1mjF9Mj/tD68jPPnuidklpyqs2Sek2o9UqtTdfbGYw7HMaQxqVlcY87ejVafUL1jUesddbZ+B3b5ty30tCh70hp7vLeR49f0dJzReTWRdC5gHVe8Db0ZxmsevfiSAf4iQ8c=
+>>>>>>> ezra
   </data>
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt1oEJACAIBMDffxHXbIMQioK6m0D+RUxgrm4P8Ak5AwDQUfE7sp+dOkPOPZW1W7crZ329bwBmLgcu
+=======
+   eJzt10sKACAIBcDufxGv2TZaRBD2oRmQlspDkEqBsTg9wCfkzIuiKfJE95JDznvIGda5vWSwU3vIec4t/4zT/clXAfTgDGY=
+>>>>>>> ezra
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJztltEOwiAMReFFfqOPc2rM/Fv/1pGMZGsoXFjBaXaSG3FrO7jUoTUnPbBfzu/FddY465aJGzL5Qbk6Jfm5udmVjgLqxyCM+TXJ91SuBnwd6B5LezYK41Teeg6lfdWKlN9H6kNOzPNfBfXZ98/e9xHaf639fUbE7yM5Ie6VqOWR3qvoeaGB9u//YWRPgkhRnqkg9h/wHlNneVCf38K80V67LNIG6c3SPo0hXUeZgJia/2Rh/RIxD+5AXceeQZXqTQuf96yfnxPSuWGE/FRMK5zZ7j//7uE+O/ZJi1CfUY8Dtfel+BqciXsVG9cSfCbhPpltn2md0yil8Rr1kJ7K1eCkfKbG6o3Ws/fUieXQqe76AB0mPHI=
+=======
+   eJztltEOgyAMRfFl/AZvc27L4v52fztJNMGmpVct6BZPcjOmtOClgo07qUGzc3wtboO6QXelX6vET9LyLInX5tYkOgqoH63Qptck30tDnwNdY2nNOqGdi0vnsLSuSpFbjyPVIYXz/FdBfY71s3U/QuuvtL8vRvQ+EjPpTfpQpH0VPS8ssH7/ny7vSVQwVj+OrfX7F6LHYQehPn+EeaO1dhllDVKbS+uUQ7qO0utdVn2TTc8vwXnwAPJ6MsbVrauv2pTwecu7Sc8J6dxwQnyuTym8m68//R+hPnvyG0ahPqMep+TuI7lovqV4x3vFtdeS7s8cwc3rzOqczo0VmGtWIPmQmtJyUHI+h8KyRstpNfaWPFxMOFVdX7ioPLE=
+  </data>
+ </layer>
+ <layer id="10" name="Ladders" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0DERADAMA7FQavmDK4cOzmAJwd/PAAD8udsBJc52QAmfM3zO8DnD5wyfM3ym0QM3vAGK
+>>>>>>> ezra
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
@@ -33,7 +55,11 @@
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
    eJzt1cEJACEMBEAbsQgrsQkbuo59K4gPwROdgXwCC/sJCQEAuElZzH/dvCb+XYArrd4lANA6/bfmwT5tbcFMBXNrBA4=
+=======
+   eJzt1bEJACAMBMCs5CQu4UJubK0gFgERuYNvAoE0TyIAgJ+05H5fAuRlewkAzF7/rXUzL1ev4GQAF9AD8Q==
+>>>>>>> ezra
   </data>
  </layer>
 </map>

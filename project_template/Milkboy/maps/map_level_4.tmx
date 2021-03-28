@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="general_tileset.tsx"/>
+ <layer id="5" name="Background" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACEMBEFXC/13QA46vT4CxEzi1MnKrgIAAAAA4AZtmgDwR9+9ABxs7qPV+nP5wXiV+wFZL41Aog/I9AGZPiDTB2T6gEwfkGkDvg0mhwk9
+  </data>
+ </layer>
+ <layer id="6" name="Coins" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2kESgjAMBdDe/yQc061TmzQw7SDDexsUQ9z8oAVaAzJHt935HZV9R6Em+gxWm+VxRf9R7vt9LaiL+sETZFn9zvLRfucimpv+fWW24B9lWZ39PvQ11fkY9QYAYA//u7hLv8befU1Y1nmSfm18Jr+j2cpmrTIfZoi3irKfzVO1B6yyOl+z+yWVY8/ec4EdKufoq72ymurzKFGP3c8E8C7ZWiBbc1TO1Vfz2fe+ynywQpT/Wf3otUwCAAAAsMIH7HZSsQ==
+  </data>
+ </layer>
+ <layer id="3" name="Breakable" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2qENAAAIAzD+f4Q38ShwJLTJ3OzcIoCtbJn04YvtPgAAAAAAAAAAALjD9wsAAACAAqG5By4=
+  </data>
+ </layer>
+ <layer id="2" name="Platforms" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztmssOgjAQRbvCLzXER4K64PvFxEYy6WuYUkHPSW5ALJMu5sKUae+c6xFCUQHsna364zbpPulhjAOwFaQ/RqWu7adczPA+ntxnvufvTQd2ivVdMzgdofHyWu63Nj71I1iokT9an9Rg/i5LgT/AQs38iflEW7vl6rnRxWtDWffhD7CwRv5In9T+drBkLEAp83Vri/xp5Q05vkvEAShhzfyxeDB0jyUOPoElrJU3co2Q49VDkf2TXpxr5tkFruEP0OLz7piQ5+LK19Ol3kh9+9I8+0N+CMUD0GCpPSx9+dJvwlpvpHyCP0BL67q8Vq+kc2kvhP7HH6CllT+sfXBPSR0Vuw9/gJbYnhF/9HsP5f5DOU6e19izeBCygj9AS6rPAHm06y7YF7X6DFulRk8yFx9+l3lO/OIzEH+AhSX5g9A/6QmLzSK+
+  </data>
+ </layer>
+ <layer id="1" name="Don't Touch" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJADAIA0D3/0g37hRiq3eQAQJJBAAAAAAAAAAAAAAAAD86A1Ldm71yQKp7s1f3tv0D4G0XI9tlBQ==
+  </data>
+ </layer>
+ <layer id="4" name="Foreground" width="200" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKABAQBVCHlevIjWWhZKlQvFe/ZvlX00wIAEAXbxcAANjEnQPwhrbP0+0SAACPS9PspwYAAACA/cpC4Bd5CADAKRWDLAvN
+  </data>
+ </layer>
+</map>
