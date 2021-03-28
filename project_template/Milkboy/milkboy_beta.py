@@ -29,7 +29,7 @@ BOTTOM_VIEWPORT_MARGIN = 100
 TOP_VIEWPORT_MARGIN = 100
 
 PLAYER_START_X = SPRITE_PIXEL_SIZE * TILE_SCALING * 2
-PLAYER_START_Y = SPRITE_PIXEL_SIZE * TILE_SCALING * 1
+PLAYER_START_Y = SPRITE_PIXEL_SIZE * TILE_SCALING * 2
 
 # Constants used to track if the player is facing left or right
 RIGHT_FACING = 0
@@ -237,14 +237,33 @@ class MyGame(arcade.Window):
         # --- Load in a map from the tiled editor ---
 
         # Name of map file to load
-        map_name = "maps/beta_test_map.tmx"
+        map_name = "maps/map_level_1.tmx"
         # Name of the layer in the file that has our platforms/walls
         platforms_layer_name = 'Platforms'
         # Name of the layer that has items for pick-up
         coins_layer_name = 'Coins'
+        # Name of the layer that has items for foreground
+        foreground_layer_name = 'Foreground'
+        # Name of the layer that has items for background
+        background_layer_name = 'Background'
+        # Name of the layer that has items we shouldn't touch
+        dont_touch_layer_name = "Don't Touch"
 
         # Read in the tiled map
         my_map = arcade.tilemap.read_tmx(map_name)
+
+        # Calculate the right edge of the my_map in pixels
+        self.end_of_map = my_map.map_size.width * GRID_PIXEL_SIZE
+
+        # -- Background
+        self.background_list = arcade.tilemap.process_layer(my_map,
+                                                            background_layer_name,
+                                                            TILE_SCALING)
+
+        # -- Foreground
+        self.foreground_list = arcade.tilemap.process_layer(my_map,
+                                                            foreground_layer_name,
+                                                            TILE_SCALING)
 
         # -- Platforms
         self.wall_list = arcade.tilemap.process_layer(map_object=my_map,
@@ -252,13 +271,16 @@ class MyGame(arcade.Window):
                                                       scaling=TILE_SCALING,
                                                       use_spatial_hash=True)
 
-        # -- Background objects
-        self.background_list = arcade.tilemap.process_layer(my_map, "Background", TILE_SCALING)
-
         # -- Coins
         self.coin_list = arcade.tilemap.process_layer(my_map, coins_layer_name,
                                                       TILE_SCALING,
                                                       use_spatial_hash=True)
+
+        # -- Don't Touch Layer
+        self.dont_touch_list = arcade.tilemap.process_layer(my_map,
+                                                            dont_touch_layer_name,
+                                                            TILE_SCALING,
+                                                            use_spatial_hash=True)
 
         # --- Other stuff
         # Set the background color
@@ -278,9 +300,12 @@ class MyGame(arcade.Window):
 
         # Draw our sprites
         self.wall_list.draw()
-        self.coin_list.draw()
-        self.player_list.draw()
         self.background_list.draw()
+        self.wall_list.draw()
+        self.coin_list.draw()
+        self.dont_touch_list.draw()
+        self.player_list.draw()
+        self.foreground_list.draw()
 
         # Draw our score on the screen, scrolling it with the viewport
         score_text = f"Score: {self.score}"
@@ -388,6 +413,44 @@ class MyGame(arcade.Window):
             arcade.play_sound(self.collect_coin_sound)
             # Add one to the score
             self.score += 5
+
+        # Did the player fall off the map?
+        if self.player_sprite.center_y < -100:
+            self.player_sprite.center_x = PLAYER_START_X
+            self.player_sprite.center_y = PLAYER_START_Y
+
+            # Set the camera to the start
+            self.view_left = 0
+            self.view_bottom = 0
+            changed_viewport = True
+            arcade.play_sound(self.game_over)
+
+        # Did the player touch something they should not?
+        if arcade.check_for_collision_with_list(self.player_sprite,
+                                                self.dont_touch_list):
+            self.player_sprite.change_x = 0
+            self.player_sprite.change_y = 0
+            self.player_sprite.center_x = PLAYER_START_X
+            self.player_sprite.center_y = PLAYER_START_Y
+
+            # Set the camera to the start
+            self.view_left = 0
+            self.view_bottom = 0
+            changed_viewport = True
+            arcade.play_sound(self.game_over)
+
+        # See if the user got to the end of the level
+        if self.player_sprite.center_x >= self.end_of_map:
+            # Advance to the next level
+            self.level += 1
+
+            # Load the next level
+            self.setup(self.level)
+
+            # Set the camera to the start
+            self.view_left = 0
+            self.view_bottom = 0
+            changed_viewport = True
 
         # --- Manage Scrolling ---
 
