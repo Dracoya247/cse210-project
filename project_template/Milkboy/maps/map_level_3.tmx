@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
+ <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_choc.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half_choc.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half_snow.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_snow.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_choc.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_snow.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../images/cookie_tiles/cookie_bridgeA.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../images/cookie_tiles/cookie_bridgeB.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../images/cookie_tiles/frosting_snow.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_choc.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half_choc.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half_snow.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_snow.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_choc.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_snow.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="../images/cookie_tiles/pep_spikes.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_choc.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half_choc.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half_snow.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_snow.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_choc.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_snow.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="../images/cookie_tiles/pretzel_ladder.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="../images/cookie_tiles/velvet_cake.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_choc.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half.png"/>
+  </tile>
+  <tile id="36">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half_choc.png"/>
+  </tile>
+  <tile id="37">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half_snow.png"/>
+  </tile>
+  <tile id="38">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_snow.png"/>
+  </tile>
+  <tile id="39">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri.png"/>
+  </tile>
+  <tile id="40">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_choc.png"/>
+  </tile>
+  <tile id="41">
+   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow.png"/>
+  </tile>
+ </tileset>
  <layer id="5" name="Background" width="200" height="20">
   <data encoding="base64" compression="zlib">
    eJztzjERACAMBLA6xASHB9zjgKHLd0gUpAoAAAAAmG6lAwBA204HYLCbDgBfJx0AAAAAAAAAIh5Y+wGT
@@ -8,7 +137,7 @@
  </layer>
  <layer id="3" name="Coins" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztmVsOAyEIRd1s9zbL7K8xoqBcBOUkTTNTh9eAD1pKkiQv8FUftJ76O0kigKyNWnarQ0tn1lsSFW7taeS4VZ1YrLUazOyM4kckvjLfj1nmKXWNtIHyvY3NN7jPiSNHZ29c/a0hMxLe/fFunwZW8zJ3/mn1rejvPX/6Xa7Y4cX2HhY2efAbHf8TPiJ07sRJur5q6o7OrX579cs6RxG57TW2KCL5u3Le8AbnzKUhf1cWZSP1G+f5qGj1i2+KCZJZjWjIttq7jnopI/siEtXu03h75xJ7VmtptL4g9N3AzOcbYyKZr6X+/5Ys8s9qL00yViofhWRPmiRS2n659Bnu2Jfy94ZzvJQXfDzJDbnUng+5NUKN610nfjj1nyd3H43ore/2JKn60NKN3qveME+tEsnnU2ftUzHq5SR1D20Dd72LzshXhH+cnNbQ+8K7k4DqX3F0RY717lq5s7+iatJq/kPJjbr/iGp3knjmDyqPs44=
+   eJztmVsOxCAIRd3s7K3LnF9jREG5CMpJJk07lpfgq6UkSfICX/VD66mvSRIBZG3UslsdWjqz3pKocGtPI8et6sRirtVgZmcUPyLxlfl6zDJPqXukDZTvbWy+wXNOHDk6e+3qq4bMSHj3x7t9GliNy9zxp9W3or/3/um+XLHDi+09LGzy4Dc6/id8ROjciZN0ftXUHZ1b/fbql3WOInLba2xRRPJ3Zb/hDc6eS0P+rizKRuo/zvtR0TovvikmSGY1oiHbau06OksZ2ReRqHafxlufS+xZraXR/ILQdwMzn2+MCXK8/inL88LqWZqkrVQ+Csma9HUyRnLa83LpO9y2L/XNDft4KS/4eJIbcqndH3JrhGrXu0/8cOqbJ3cfgThb3z2TpOpDSzd6rXrDOLVKJJ9P7bVPxaiXk9QztA3c+S46I18R/nFyWkPvC30ngTvma8We850hArtz5c76iqpJq/EPJTfq+iOq3UnimT8dcbOO
   </data>
  </layer>
  <layer id="6" name="Breakable" width="200" height="20">
@@ -18,17 +147,17 @@
  </layer>
  <layer id="2" name="Platforms" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztm21OwzAMhn3b3QCJ/RhlDBC34CgcjVUoIgR/22nara/kP23iOImfNGm3IwAcd9ttt392WEEMmVYr05dXPXyPHuN7sQP88nErY48p05dH2X5Hj/E92AFwPm5l/FtF61M6K8tp/Wr9afQG8DVdre3b9drn9d5nYlNqecd5lDA+AMbn9xKMcPcltXn8glxbg1pGpoFsbFEUH7W2xHsRFXOkLzMDr8qyVlba8mfmnlWFkcnABtfmPA4XxLRj00OWubFIwwcoy6xRGVxH8/Ojsregr/fGX2uUZkYkNrB+FhaWyn1NnmeuHZK0fGRq6X2ItA/D8uwpqe2Ppq0J/IzMbDyD3JeIes1N7bdlQNOmJa7MPvTkY+m1h1OPs7mklo0IIxo2suLPyq+on8w89/rCvn9E/O36EcWGhxEtG1s4d2v3g1mK5jH3/LD4jpyPos+ZXmczryQ2LIxE2KByEdtPPhLXs02zt7UYpaz1fcT5Y1ZG/Gt8xmnZ0DDiZYPKxSJLfGs3zzPoBDJ3D5VJfJSx9j4PM84hUR/tex/N3qauoylPsVFLy0iEDaosF8OWTcr1+l1LWVM1fqnv59x4axmJ7nky90xYrk3A53xbRyqvycsiipF6Tj1saNqmymUbpRH8RGLh+KjnvPa5xLkqS9w6PAGe81QdqryFDRDuUfKwMYIPT1+weu21NgeXiInjg2uDanepdxKSLOvwBH+fv6emTlFdnjtz9pKHDWoOJdYsPjNy0SNPTBdHO5rfJ1rjHS3L3HFrg9avpt/aubG+c/DkibT2Wf2OyJXsmChRv2/HRM1dZjwZssRCcaDxHe1v9HcS0XyQuInkntQ3rC525qS+tWfmG+eD+j5o8b1lPraqHmvlvYrj/9b+P7jbbpk28/ENCtNy0Q==
+   eJztm0luwzAMRXXUnqM36C16hQRB22V32fRQjVEIEVQOn4MsO/EHuLElipL5NMTOqZRyOuyww/7ZdQMxZFqrTF9ejfA9e4yfxa7lzsejjD2lTF8eZfudPcbPYNdC8/Eo498rWp/TBSyH+kX9Ifos5Zvr3+3ee2JTsLzjPEsUH6XMz+81GJHua+rz+EJc24IoRmaxsUdxfLTaE+9VXMyRvlgYsLJC8eb11atlBGVDavMi2CyNah/ho4BltqgMrqPjfm7sK+jrVv+l9dcbp4URjQ2qn2vnPtJW5tyhCeUjU2vPM9o+jMqzrD3ImWjPy8jCBtKXiEY9mz6nrTluiSuzDyP52MK6WzXibK6JYsPLCMJGVvxZzyvqJzNvvL6o9x8Rf4f+JLFhZQRlYw/nbmQ/GF0DW2XkMTfnWNc0byzRdWYra1QVwgbKSIQNLhel88toQ/a2bwZ/nDLzYcbZOyP+LTFRZWFDY8TLBpeLVdb4tmyetWb5raLn7KOzn8Y0PupYe9e9jHNI1Ef/uw+yt2nrIOU5NlqhjETY4MpqMezVtDWGWlsRv9z7c2m8UUayeMgQl2tSzlN1pPJIXlYhz9nDBtK21H6mcZrBT6s2p1BGuP60z6n1mXl+Gi1tHqZyXqpDlbewUZR7nDxszODD0xeqXn+tz8E1YpL4kNrg2tXOTGspMg/332NUtdekM+coedjgnqHGmsVnRi56lB0TJ+T7RGu8s2UZJ2luQP0i/R71XYonT7S5z+p3Rq54YvLs17nv2ylx/jN5zZAlFo4DxHe0v9HvJKLzpcZNhAetb1Rd6szJvWvPzDfJB/d+0OJ7z3zsVVE2Dt21jNsrY4/2/8HDDsu0hY9fuXPw0w==
   </data>
  </layer>
  <layer id="1" name="Don't Touch" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt2U0KgCAQBlDvFN2t43W0aBfSLxgz2XvwrXQxBaOipQAAAAAA0KuplDm6BoCeTVXIbd0X60TX1JOrfjgbr8f2AhzL0iNZ6gD+ybkBgFbcGbwn6r+OwYHMhuAcebpebOdnWMMz1NBaj990JWt/QAb64x5vX8DXLUYKOsE=
+   eJzt2U0KgCAQBlDvFB28G7TqXNEupF8oZrL34FvpYhTGQksBAAAAAKBVUyljdA0ALZuqkNvyXawTXVNLzvrhaLwe2wr8zXBjbpYeyVIH8E/+GwB4ijuD90Ttax8cyKwLzp6758V6foYzPEMNT2txTWey9gdkoD+u8fYFfN0MIGVKEg==
   </data>
  </layer>
  <layer id="4" name="Foreground" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt18EJgDAMBdBu2CEU1xE39i5WoT0k2vcg5PoDOSSlAAAAAACZ1egAAAB83hod4Ea9dP4l487RZ4sOAADAK/c3AABwNGrEMhoqkRn+phlm7LU3Cnh2AiPqCms=
+   eJzt17ENgCAQBVA2ZAjdh7iPw9lYGTBRCk55L/mh/ZdcwaUEAAAAAESWRxcAAODz1tEFKvLl5V8i7hzP7WcAAIjN/xsAANga6bH0lgpkhrtphhnfKo0A9w5LbAt9
   </data>
  </layer>
 </map>

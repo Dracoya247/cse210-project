@@ -188,6 +188,10 @@ class MyGame(arcade.Window):
         self.wall_list = None
         self.player_list = None
         self.background_list = None
+        self.foreground_list = None
+        self.dont_touch_list = None
+        self.breakable_list = None
+        self.ladder_list = None
 
         # Separate variable that holds the player sprite
         self.player_sprite = None
@@ -204,14 +208,21 @@ class MyGame(arcade.Window):
         # Keep track of the score
         self.score = 0
 
+        # Where is the right edge of the map?
+        self.end_of_map = 0
+
+        # Level
+        self.level = 1
+
         # Load sounds
-        self.collect_coin_sound = arcade.load_sound(":resources:sounds/coin1.wav")
-        self.jump_sound = arcade.load_sound(":resources:sounds/jump1.wav")
-        self.game_over = arcade.load_sound(":resources:sounds/gameover1.wav")
+        self.collect_coin_sound = arcade.load_sound(":resources:sounds/coin5.wav")
+        self.jump_sound = arcade.load_sound(":resources:sounds/jump2.wav")
+        self.game_over = arcade.load_sound(":resources:sounds/gameover2.wav")
+        self.smash_sound = arcade.load_sound(":resources:sounds/hit2.wav")
 
-        arcade.set_background_color(arcade.csscolor.CADET_BLUE)
+        arcade.set_background_color(arcade.csscolor.LIGHT_BLUE)
 
-    def setup(self):
+    def setup(self, level):
         """ Set up the game here. Call this function to restart the game. """
 
         # Used to keep track of our scrolling
@@ -226,6 +237,10 @@ class MyGame(arcade.Window):
         self.wall_list = arcade.SpriteList()
         self.coin_list = arcade.SpriteList()
         self.background_list = arcade.SpriteList()
+        self.foreground_list = arcade.SpriteList()
+        self.dont_touch_list = arcade.SpriteList()
+        self.breakable_list = arcade.SpriteList()
+        self.ladder_list = arcade.SpriteList()
 
         # Set up the player, specifically placing it at these coordinates.
         self.player_sprite = PlayerCharacter()
@@ -248,6 +263,13 @@ class MyGame(arcade.Window):
         background_layer_name = 'Background'
         # Name of the layer that has items we shouldn't touch
         dont_touch_layer_name = "Don't Touch"
+        # Name of the layer for ladders
+        ladder_layer_name = 'Ladders'
+        # Name of the layer for breakable walls
+        breakable_layer_name = 'Breakable'
+
+        # Map name
+        map_name = f"maps/map_level_{level}.tmx"
 
         # Read in the tiled map
         my_map = arcade.tilemap.read_tmx(map_name)
@@ -268,6 +290,18 @@ class MyGame(arcade.Window):
         # -- Platforms
         self.wall_list = arcade.tilemap.process_layer(map_object=my_map,
                                                       layer_name=platforms_layer_name,
+                                                      scaling=TILE_SCALING,
+                                                      use_spatial_hash=True)
+
+        # -- Ladders
+        self.ladder_list = arcade.tilemap.process_layer(map_object=my_map,
+                                                      layer_name=ladder_layer_name,
+                                                      scaling=TILE_SCALING,
+                                                      use_spatial_hash=True)
+
+        # -- Breakable
+        self.breakable_list = arcade.tilemap.process_layer(map_object=my_map,
+                                                      layer_name=breakable_layer_name,
                                                       scaling=TILE_SCALING,
                                                       use_spatial_hash=True)
 
@@ -306,6 +340,7 @@ class MyGame(arcade.Window):
         self.dont_touch_list.draw()
         self.player_list.draw()
         self.foreground_list.draw()
+        self.breakable_list.draw()
 
         # Draw our score on the screen, scrolling it with the viewport
         score_text = f"Score: {self.score}"
@@ -414,6 +449,18 @@ class MyGame(arcade.Window):
             # Add one to the score
             self.score += 5
 
+        # See if we hit any breakable walls
+        breakable_hit_list = arcade.check_for_collision_with_list(self.player_sprite,
+                                                             self.breakable_list)
+
+        # Loop through each breakable wall we hit (if any) and remove it
+        for wall in breakable_hit_list:
+            # Remove the wall
+            wall.remove_from_sprite_lists()
+            # Play a sound
+            arcade.play_sound(self.smash_sound)
+
+            
         # Did the player fall off the map?
         if self.player_sprite.center_y < -100:
             self.player_sprite.center_x = PLAYER_START_X
@@ -498,7 +545,7 @@ class MyGame(arcade.Window):
 def main():
     """ Main method """
     window = MyGame()
-    window.setup()
+    window.setup(window.level)
     arcade.run()
 
 

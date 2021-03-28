@@ -132,7 +132,7 @@
  </tileset>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJACAMRNHY6RTO4CTuv42NjaWceKD/QfofUiQCgFtyB+BbxR1w2Gv7qLI7AMCWOgde3AA38KMBTXcHCJo7AIsBCsoBAQ==
+   eJzt1bEJACAMAEHtdApHcv9tbFxAIj7EP0j/IUVKkUSrdIC+1emAy7LtE9XoAElHxh6xvIFe8EdLMZMOUBoLvisA0A==
   </data>
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
@@ -147,12 +147,12 @@
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztlgEKwyAMRdMjdSfatXaVyQaDHmwIFVyWxG+NtpQ+CF0xieab6ia6GMG0c/woPpmV/ErxSJ6a+FLOKbOjgOrB69TGa/X0QqoD2WPNB6nX2v+9dOBY6zhSH3KOop8HqM5e51HL+ejFWzA+jsQkuzEfjnaujvwevb//hehuaRLt5WzzOnfJ7yxEjb019NT5oawb7bXnat4gvVnbpxKtvTaXXTb9J0v1a0gaLEDewObY2l+j6aFzS/38ntDuDVLiLZ9eBPrdf/4e4ToH9kxrRHVGNc6xxkf0ZyBZK+n3VvLzWYL3mdc9bc0l6ewFkg/pqdo1WTr3voNH4zV3S549dL7s377fO0JC
+   eJztlgEKwyAMRfWmu9auMtlg0IMNYYLNEv3WX3XQB6ErNdF8Y5x3FyPwk/1H8c6sNq7mj8Rp8a/F9JmtAqqHzNP63qonCy0PZI+tMUi+pf2fpYOktI6V6lCyin4MUJ1Z/ainP7J4KSa/Iz7SV4sVsfrqyPPIPv+bc7eSJtGeZEug4/6dqDFbQ6bOd2PdaK09vsYGqc3WOtUYUWtH/pOl/C00DTYgbhBz9NbXSrTq3JM/em84w7805iyC2++/fLd88mdaI6ozqnFOTz9jaBicrpX2u5dSX8rrjHVPl+bSdGaBxENq6uiaamfuzDt4FKy5e+LM0PmyX/sAvJdAuQ==
   </data>
  </layer>
  <layer id="10" name="Ladders" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt0DERADAMA7FQavmDK4cOzmAJwd/PAAD8udsBJc52QAmfM3zO8DnD5wyfM3ym0QM3vAGK
+   eJzt0EENACAQwLDzrw5JeOAxSGgVLJsBADizbgd8wueGzw2fGz43fG743PC54fNbNqckB1E=
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
@@ -162,7 +162,7 @@
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJACAMBMCs5CQu4UJubK0gFgERuYNvAoE0TyIAgJ+05H5fAuRlewkAzF7/rXUzL1ev4GQAF9AD8Q==
+   eJzt1bEJACAQA8Df0CVcyI2ttRJSKHIHKR/ShK8CAH7Sw/uxBciluwQAVq//1na7AEcmyzEDwA==
   </data>
  </layer>
 </map>

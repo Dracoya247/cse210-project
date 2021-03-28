@@ -137,17 +137,17 @@
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl1EOgCAMQ7n/SeCWfpEsjSCMbRblJQQ/pIyGzZmSjqJcF0lkjBmGBUUMKzw0UXt1fU/Hw2cPPH2ejUPLmz4zeDeLJt4s5pbPnj6w+xx595h9sKDeMTxnhvmwxp3PHnV0h2+ghUZEXjLkvuas1n0Ggw8Vlh7qK7TqxY4+e/2/PGmP1Fv5ToHnyHpmsZd1rOjxqteoO0svnhHNHXOHGeZ+5vAfLvpfP0I=
+   eJztl0sOgCAMRLn/SSBe0hUJmShCfw7KSwguZCgTWmtKMopwXSSRMWYYFpRmWOGhidra9T0dD5898PR5Ng4pb/rM4N0sknhzM6PPh0J3FHafI+8esw8W1DuG58wwb3Rc+exRR1f4BlpoROQlQ+5LzmrdZzD4UGHpob7CXb1Y0Wev/5cn7ZF6275T4DmynlnsZR0reqz1GnVn6cUzorli7jDD3M9s/sMJUtg/7Q==
   </data>
  </layer>
  <layer id="5" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJAEAIA8HYfyG2eUUcUYI7BYjsQ5QA/OiwuakcPdo0FwAA+NX2AgeU6JyOX3fG9c5Td+J6Z3g8RLYFPQ==
+   eJzt1sEJADAIBEHtvxDbTBFBg2SmgEP2ZQRwo5btbtXRo5p2AYB++fqAD2TovJ1fd4bOM3SmwwFB9gU8
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztllEOgjAMhke8qEfzCD7z5BkwEfE0sOiSpum/tbNMFL+k4YHRtf/asiH8acHw6QB2wt51foRwHJfnuPI+NTrfQ7iMz+cJrYnx18bkQf8y9C4ScxiIcVKe1HI5I87APwLFzYkaS355zLyOemaIW8akmDU+rZTOkNIFnc4Hw/5JY+rXM7+t0SnXcD0kTUo609rM9WEt3rXoSY3OHE1fbpEWZ4JmILJvvG9YdUT/g0SLeqI6S/to+sIbr/+WV11zPzV+c/XcBZvOXJtrwdB3v4h2bqAay91v1phJ03KfKZ0fP0cvrLVANYtaSDG+My9SPN46T+TOqDGONafaHpO+QzF6zGVPna0aS/VTygn1gkfvaGPM+UVrNH60ZtW4tZWYAa9V6II=
+   eJztllEOwjAIhmm8qEfzHHvyDDNxztO4RpsQAhQqq9P5JWQP6yj8BdYR/vRg/HQAO2HvOt8BjtPynFbep0XnG8B5ej5P0pocf2tMEQwvk95lcg4jMkrJE5uWs4ZHZyluStaY80tjpnU0EJO4KsbFbPHppXaGmAQ2nQ+O/YvG2G9kflsjGddQPThNajrj2tT6sJXoWoykRWeKpS+3SI8zkWagZN943/DqKP0PCj3qCevM7WPpi2ii/ltRdU39tPjV6jmBT2eqzaVi0ne/iHVuSDWm3W/WmEnzcp+pnR89xyi8tYA1y1pwMb4zL0o80TrP6M5oMYo3p9Ye476TYoyYy5E6ezXm6qeWk9QLEb1jjVHzK62x+LGaV+PeVuMBCX/n0g==
   </data>
  </layer>
  <layer id="3" name="Don't Touch" width="90" height="15">
