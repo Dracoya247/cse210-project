@@ -16,24 +16,24 @@
    eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
   </data>
  </layer>
- <layer id="5" name="Foreground" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt1cEJACEMBEAbsQgrsQkbuo59K4gPwROdgXwCC/sJCQEAuElZzH/dvCb+XYArrd4lANA6/bfmwT5tbcFMBXNrBA4=
-  </data>
- </layer>
  <layer id="6" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJACAMA8Dsv0jXdAPxoVbwboGWEEoTmKvuBT4hZwAAVlT8juynU3fIeU3ljVvXPZ/zBvtcBoc=
+   eJzt1oEJACAIBMDffxHXbIMQioK6m0D+RUxgrm4P8Ak5AwDQUfE7sp+dOkPOPZW1W7crZ329bwBmLgcu
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztltEOgyAMRfFl/EYfnduyuL/d306SkWhDyxULusWT3AyVFrhUWedOWtDtHN+K66Rh0i3Tr8/ER+XyrInPza2b6SigfvRCm9+TfNdiLeDrQPdY2rNBaGtx8zmsrataaH4fqQ45Kc9/FdTnUD9bv0do/dX295kQf47ERL2UXAHpu4qeFxZYv/8Pp3sSRMYawX7/QvCYdhDq81uYN1prl6+sQWpzbZ2mkO6jjECfkv9kcf0SKQ/uQF7PxqBCtaaGz1vWPz8ntHPDCfFan1p4t9x/fh3gPnv2S1+hPqMeR7TnSB6erwTv0l6l2qVEn0l4Tm5ZZ1bntDYWCdcWIPmQmsrl4Gg+U2VZk8tpNfaWPKkYOtVcHy1FPdA=
+   eJztltEOwiAMReFFfqOPc2rM/Fv/1pGMZGsoXFjBaXaSG3FrO7jUoTUnPbBfzu/FddY465aJGzL5Qbk6Jfm5udmVjgLqxyCM+TXJ91SuBnwd6B5LezYK41Teeg6lfdWKlN9H6kNOzPNfBfXZ98/e9xHaf639fUbE7yM5Ie6VqOWR3qvoeaGB9u//YWRPgkhRnqkg9h/wHlNneVCf38K80V67LNIG6c3SPo0hXUeZgJia/2Rh/RIxD+5AXceeQZXqTQuf96yfnxPSuWGE/FRMK5zZ7j//7uE+O/ZJi1CfUY8Dtfel+BqciXsVG9cSfCbhPpltn2md0yil8Rr1kJ7K1eCkfKbG6o3Ws/fUieXQqe76AB0mPHI=
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJzt0MENABEAAEE9cb0p31cueBHETLINbAgAwMtyFcDtvk6cKTeCkdSI+eIv1vB5vwKtWQeb
+  </data>
+ </layer>
+ <layer id="5" name="Foreground" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1cEJACEMBEAbsQgrsQkbuo59K4gPwROdgXwCC/sJCQEAuElZzH/dvCb+XYArrd4lANA6/bfmwT5tbcFMBXNrBA4=
   </data>
  </layer>
 </map>
