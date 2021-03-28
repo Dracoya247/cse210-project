@@ -1,70 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
- <tileset firstgid="1" source="general_tileset.tsx"/>
- <layer id="2" name="Coins" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt2G0KgCAMgOHd/yR5SwmCRKaWKz/G+4B/EhltOIYiIuFamtL3p/u41fIMAAB0IVt4r2ee6801tRpnRI7zGNaYh/G8F9o9qd2dr+tw2rEWf/eWnfpWKxeWf5ndw2fHT3l+D1kpz6tozTDMOD5FzaQgWA==
-=======
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
->>>>>>> ezra
   </data>
  </layer>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
-=======
    eJxjYBgFo2AUDDRgHGgHjIIRCzgH2gFUBsT4ZwbNXTF4AMcA2q0/gHZTAmyR8CigHQCFrwzDaDijA3koHgUDC0bjYBTQAwxkHT0KRsFwAP4D7YBRMGwAADxVAuQ=
->>>>>>> ezra
   </data>
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
-=======
    eJzt1cEJACEMBEAbsQgrsQkbuo59K4gPwROdgXwCC/sJCQEAuElZzH/dvCb+XYArrd4lANA6/bfmwT5tbcFMBXNrBA4=
->>>>>>> ezra
   </data>
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-   eJzt0LEJAAAIA0H3X8Q1bS3tBL2D9E8iAAAAgM9yO+AJP89k23YHtxWc8QPr
-=======
    eJzt1sEJACAMA8Dsv0jXdAPxoVbwboGWEEoTmKvuBT4hZwAAVlT8juynU3fIeU3ljVvXPZ/zBvtcBoc=
->>>>>>> ezra
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-<<<<<<< HEAD
-   eJztllEOwiAMhtmL6CnkVacxm3oO72A8hNfQN2/rSCBhtYWOMWaUL/kzN0rZ/ha3ShRyUM08/1/YdNo6qpGxGpmnqRwV0gLrQtWImueL+SaeRikofRjHamA812fdi0P7kOr7HP1884wdGHoA+WJbcG65miP1v5pzf7u1SLHeXoQ9VInVMuN+Be2xmkENM+5F3Lev19x9uTCCrI1i4fTm0D7FoK5zaRgxMd9k9vnPhDAPdkgeWAMJ1lCRys0UPo95fvc94dbgjgibD/GNpUKKfv3huQb6LMFRGUGfl8SaXI8tvnFOHpgvBilwr7DfsVifVacTIiX6fZbqPY0Bx0PxMXDycfZuKAfE9fkIpCZWDL5v3lDOsWtz8lyIOXP6XPSpN1ywRWw=
-=======
-   eJztltEOgyAMRfFl/EYfnduyuGQfu7+dJJJoQ8tVC7rFk9wMlRa4VFnjTmrQ7Bxfi+ugbtAt06/NxEfl8iyJz82tmegooH60Qpvfk3zXYi3g60D3WNqzTmhrcdM5LK2rUmh+H6kOOSnPfxXU51A/W79HaP2V9veZEH+OxES9lFwB6buKnhcWWL//D6d7EkTG6sF+/0LwmHYQ6vNHmDdaa5dR1iC1ubROU0j3UXqgz5r/ZHH9b0EpD+5AXs/GoJWqTQmft6x/ek5o54YT4rU+pfBuvv/8OsB99uyXRqE+ox5HtOdIHp5vDd6lvUq11xJ9JuE5uXmdWZ3T2lgkXFuA5ENqKpeDo/lMhWVNLqfV2FvypGLoVHV9AVb/Pw4=
->>>>>>> ezra
-=======
    eJztltEOgyAMRfFl/EYfnduyuL/d306SkWhDyxULusWT3AyVFrhUWedOWtDtHN+K66Rh0i3Tr8/ER+XyrInPza2b6SigfvRCm9+TfNdiLeDrQPdY2rNBaGtx8zmsrataaH4fqQ45Kc9/FdTnUD9bv0do/dX295kQf47ERL2UXAHpu4qeFxZYv/8Pp3sSRMYawX7/QvCYdhDq81uYN1prl6+sQWpzbZ2mkO6jjECfkv9kcf0SKQ/uQF7PxqBCtaaGz1vWPz8ntHPDCfFan1p4t9x/fh3gPnv2S1+hPqMeR7TnSB6erwTv0l6l2qVEn0l4Tm5ZZ1bntDYWCdcWIPmQmsrl4Gg+U2VZk8tpNfaWPKkYOtVcHy1FPdA=
->>>>>>> ezra
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-<<<<<<< HEAD
-   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
-=======
-   eJzt0LkJACAQAEF70uKufFORw8gncAa2gS0FAPhZDAHATZEEKy2J/eoUZ/j8XgeDnwZd
->>>>>>> ezra
-=======
    eJzt0MENABEAAEE9cb0p31cueBHETLINbAgAwMtyFcDtvk6cKTeCkdSI+eIv1vB5vwKtWQeb
->>>>>>> ezra
   </data>
  </layer>
 </map>
