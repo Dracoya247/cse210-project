@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="11" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
- <layer id="2" name="Coins" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
-  </data>
- </layer>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDDRgHGgHjIIRCzgH2gFUBsT4ZwbNXTF4AMcA2q0/gHZTAmyR8CigHQCFrwzDaDijA3koHgUDC0bjYBTQAwxkHT0KRsFwAP4D7YBRMGwAADxVAuQ=
+  </data>
+ </layer>
+ <layer id="10" name="Ladders" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
   </data>
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
