@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
@@ -137,17 +137,17 @@
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl1EOgCAMQ7n/SeCWfpEsjSCMbRblJQQ/pIyGzZmSjqJcF0lkjBmGBUUMKzw0UXt1fU/Hw2cPPH2ejUPLmz4zeDeLJt4s5pbPnj6w+xx595h9sKDeMTxnhvmwxp3PHnV0h2+ghUZEXjLkvuas1n0Ggw8Vlh7qK7TqxY4+e/2/PGmP1Fv5ToHnyHpmsZd1rOjxqteoO0svnhHNHXOHGeZ+5vAfLvpfP0I=
+   eJztl+EOwBAMhL3/k/CW+7VEGkyr153Nl4j9mFOXolKyUYzjIomMMYvmQamaFwhNqb06fqSD8BkB0mdtHFbe9JnBOy2WeHPV93xG+sDuc2TuMfvgwZ1jcp1Z9Ic1Wj4jztEd7kAPjYh9iZpDc4da1updZzCdgSw11Ffo5eGOPqPeL0/aM/u4/qeI78jzzGMu71ilx6teS10to3hmNHfcO8ww1zOH/3ABFetBOg==
   </data>
  </layer>
  <layer id="5" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1sEJAEAIA8HYfyG2eUUcUYI7BYjsQ5QA/OiwuakcPdo0FwAA+NX2AgeU6JyOX3fG9c5Td+J6Z3g8RLYFPQ==
+   eJzt1kENAEAIA0H8G8HmiSAlRzIjoI99tQqY6GO7VyV6dGgXAAB+4Ovu0HmHziQ8K9IFOQ==
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztllEOgjAMhke8qEfzCD7z5BkwEfE0sOiSpum/tbNMFL+k4YHRtf/asiH8acHw6QB2wt51foRwHJfnuPI+NTrfQ7iMz+cJrYnx18bkQf8y9C4ScxiIcVKe1HI5I87APwLFzYkaS355zLyOemaIW8akmDU+rZTOkNIFnc4Hw/5JY+rXM7+t0SnXcD0kTUo609rM9WEt3rXoSY3OHE1fbpEWZ4JmILJvvG9YdUT/g0SLeqI6S/to+sIbr/+WV11zPzV+c/XcBZvOXJtrwdB3v4h2bqAay91v1phJ03KfKZ0fP0cvrLVANYtaSDG+My9SPN46T+TOqDGONafaHpO+QzF6zGVPna0aS/VTygn1gkfvaGPM+UVrNH60ZtW4tZWYAa9V6II=
+   eJztllEOgjAMhrt4UY/mEXzmyTNg4sTTyKIkTbN/a2edKH5JwwPQ/f3Xwkb604Px0wI2wtZ9vhHt43yNb16nxecr0Sk+rgf0TNLfqsmD4RnoXiLVMLKQLHXyKNWMOIL8CKRbkjzO5ZWaZR8NIhCXQuQ0a3Jaqe0hJ5DO551h/cVjntezvrURlM9IP3Ke1HzmvVmaw1a8e9GTFp8lmrlcIz32BH0DUXzjecPqI/ofLPToJ+7zWvrW67/l1dcyT0veUj8H0n1/+Ppcw7kS6L1fxHqu0+7tYMytZZrPM7X9k/vohbUX+FwmL3IaLX2M9Hj7PLEzoyYk1ppaZyz3HtL4is88txdWj3P9U6sJzYLH7Gg1lvKiZzR5tGH1uHfUuAOtmefH
   </data>
  </layer>
  <layer id="3" name="Don't Touch" width="90" height="15">
