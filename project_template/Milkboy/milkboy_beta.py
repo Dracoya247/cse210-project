@@ -339,10 +339,10 @@ class MyGame(arcade.Window):
         self.wall_list.draw()
         self.coin_list.draw()
         self.dont_touch_list.draw()
+        self.ladder_list.draw()
         self.player_list.draw()
         self.foreground_list.draw()
-        self.breakable_list.draw()
-        self.ladder_list.draw()
+        self.breakable_list.draw()        
 
         # Draw our score on the screen, scrolling it with the viewport
         score_text = f"Score: {self.score}"
