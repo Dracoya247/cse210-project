@@ -135,6 +135,11 @@
    eJzt1bEJACAMAEHtdApHcv9tbFxAIj7EP0j/IUVKkUSrdIC+1emAy7LtE9XoAElHxh6xvIFe8EdLMZMOUBoLvisA0A==
   </data>
  </layer>
+ <layer id="10" name="Ladders" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0EENACAQwLDzrw5JeOAxSGgVLJsBADizbgd8wueGzw2fGz43fG743PC54fNbNqckB1E=
+  </data>
+ </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztl1EKwCAIhr3/SdYtI9hDSLM0NWt94EvhtN8kBwCQXmvxtT66H4WnMrzG9ef41VA6a0HlJ81byz8a3LNIz8+9Y1y/KFD3bvYb1mjF9Mj/tD68jPPnuidklpyqs2Sek2o9UqtTdfbGYw7HMaQxqVlcY87ejVafUL1jUesddbZ+B3b5ty30tCh70hp7vLeR49f0dJzReTWRdC5gHVe8Db0ZxmsevfiSAf4iQ8c=
@@ -148,11 +153,6 @@
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
    eJztlgEKwyAMRfWmu9auMtlg0IMNYYLNEv3WX3XQB6ErNdF8Y5x3FyPwk/1H8c6sNq7mj8Rp8a/F9JmtAqqHzNP63qonCy0PZI+tMUi+pf2fpYOktI6V6lCyin4MUJ1Z/ainP7J4KSa/Iz7SV4sVsfrqyPPIPv+bc7eSJtGeZEug4/6dqDFbQ6bOd2PdaK09vsYGqc3WOtUYUWtH/pOl/C00DTYgbhBz9NbXSrTq3JM/em84w7805iyC2++/fLd88mdaI6ozqnFOTz9jaBicrpX2u5dSX8rrjHVPl+bSdGaBxENq6uiaamfuzDt4FKy5e+LM0PmyX/sAvJdAuQ==
-  </data>
- </layer>
- <layer id="10" name="Ladders" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt0EENACAQwLDzrw5JeOAxSGgVLJsBADizbgd8wueGzw2fGz43fG743PC54fNbNqckB1E=
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">

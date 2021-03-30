@@ -346,8 +346,8 @@ class MyGame(arcade.Window):
 
         # Draw our score on the screen, scrolling it with the viewport
         score_text = f"Score: {self.score}"
-        arcade.draw_text(score_text, 10 + self.view_left, 10 + self.view_bottom,
-                         arcade.csscolor.WHITE, 18)
+        arcade.draw_text(score_text, 10 + self.view_left, 600 + self.view_bottom,
+                         arcade.csscolor.BLACK, 18)
 
         # Draw hit boxes.
         # for wall in self.wall_list:
