@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="19" height="14" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="8">
+ <tileset firstgid="1" source="screen_tileset.tsx"/>
+ <tileset firstgid="69" name="ihelp_tileset" tilewidth="512" tileheight="544" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="3">
+   <image width="512" height="512" source="../assets/milkboy/Milkboy Idle 2.gif"/>
+  </tile>
+  <tile id="4">
+   <image width="512" height="544" source="../assets/milkboy/Milkboy Walk.gif"/>
+  </tile>
+ </tileset>
+ <layer id="2" name="Background" width="19" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjZwBiIjYBYH4jNgNhqYJ0zCkbBoAQAMI0BBQ==
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="19" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzEmJ2BYQEDGQCo7wC6WZSAUbNGzSJkFjuZ5gD1JQx0PiOEARoiAlE=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Character">
+  <object id="5" gid="72" x="1416.46" y="1204.64" width="512" height="512"/>
+  <object id="6" gid="73" x="519.912" y="1206.93" width="512" height="544"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="19" height="14" tilewidth="128" tileheight="128" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="screen_tileset.tsx"/>
+ <layer id="2" name="Background" width="19" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj8QIyB4QCpmBhzHYFYH4jNgFgXiC2B2BwqNtDAFojtgdiKAeIeGzLNAfnHmAHiR1Mg1mGA+NOZCm4caUCBCDU8JJhlCcUGZLqHngAAdsQP3Q==
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="19" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxTYmBgUKIiBgF1BoYD5GIGJLOA/AUMFACg/gRcZnER0Isuj88sarprsJo1VMKLkDuHQthD+WRjBgbq5mkQBgBPdCVN
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="19" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAPwoNHDCQAAGGgAGQ==
+  </data>
+ </layer>
+</map>
