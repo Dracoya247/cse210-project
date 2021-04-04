@@ -143,7 +143,7 @@
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl0sOwCAIRL3/SeotG3fGGJDfKLYvcVNDwUEClmKjGu1RPN0av0ntJXY9tcTrRcWnjdvLHsWqztKzaM8vvWNSu1Og7p31H9F4+UTEn6UOf/z5ct7rsCK5VWdOt9m+VuuVXN2qMxrEHD760PqkZnGPOTsbszqhaici1xl1ju4DWd62DU6LtqfNMaLfnuy/h9PRovNuTtK5Meq4ozdwMwxqHv3B8gJuy0Me
+   eJztl0sOwCAIRL3/SeotG3fGGJDfVKwvcVNDwUEClmKjGu1RPN0av0ntJXY9tcTrRcWnjdvLHsWqztKzaM8vvWNSu12g7p31H9F4+UTEn6UOL/78Oe91WJGcqjOn22xfq/VKrk7VGQ1iDh99aH1Ss7jHnJ2NWZ1QtROR64w6R/eBLG/bBqdF29PmGNFvd/bfw+lo0flrdtK5QemI6g3cDIOaRy9YXrHAQSY=
   </data>
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
