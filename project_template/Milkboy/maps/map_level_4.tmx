@@ -130,6 +130,7 @@
    <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="5" name="Background" width="200" height="20">
   <data encoding="base64" compression="zlib">
    eJzt1t0JgCAUgFGnrXGiDRrE4YLorSSL2/85ID4JInx4UwIAAAAA4A3yvDe33gLO188LWNelqZFh77k2/iq/lA+8PdeK6KNJy5nLDFZHI8/m/7ifRp7raB8aeTf/ex19QCx9QJk+Ypl1vkUfUKYPKNPHd5jt4mkDto3ziBZ/
@@ -147,7 +148,7 @@
  </layer>
  <layer id="2" name="Platforms" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="1" name="Don't Touch" width="200" height="20">

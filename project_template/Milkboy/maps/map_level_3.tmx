@@ -130,6 +130,7 @@
    <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="5" name="Background" width="200" height="20">
   <data encoding="base64" compression="zlib">
    eJztzjERACAMBLA6xASHB9zjgKHLd0gUpAoAAAAAmG6lAwBA204HYLCbDgBfJx0AAAAAAAAAIh5Y+wGT
@@ -147,7 +148,7 @@
  </layer>
  <layer id="2" name="Platforms" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztm0luwzAMRXXUnqM36C16hQRB22V32fRQjVEIEVQOn4MsO/EHuLElipL5NMTOqZRyOuyww/7ZdQMxZFqrTF9ejfA9e4yfxa7lzsejjD2lTF8eZfudPcbPYNdC8/Eo498rWp/TBSyH+kX9Ifos5Zvr3+3ee2JTsLzjPEsUH6XMz+81GJHua+rz+EJc24IoRmaxsUdxfLTaE+9VXMyRvlgYsLJC8eb11atlBGVDavMi2CyNah/ho4BltqgMrqPjfm7sK+jrVv+l9dcbp4URjQ2qn2vnPtJW5tyhCeUjU2vPM9o+jMqzrD3ImWjPy8jCBtKXiEY9mz6nrTluiSuzDyP52MK6WzXibK6JYsPLCMJGVvxZzyvqJzNvvL6o9x8Rf4f+JLFhZQRlYw/nbmQ/GF0DW2XkMTfnWNc0byzRdWYra1QVwgbKSIQNLhel88toQ/a2bwZ/nDLzYcbZOyP+LTFRZWFDY8TLBpeLVdb4tmyetWb5raLn7KOzn8Y0PupYe9e9jHNI1Ef/uw+yt2nrIOU5NlqhjETY4MpqMezVtDWGWlsRv9z7c2m8UUayeMgQl2tSzlN1pPJIXlYhz9nDBtK21H6mcZrBT6s2p1BGuP60z6n1mXl+Gi1tHqZyXqpDlbewUZR7nDxszODD0xeqXn+tz8E1YpL4kNrg2tXOTGspMg/332NUtdekM+coedjgnqHGmsVnRi56lB0TJ+T7RGu8s2UZJ2luQP0i/R71XYonT7S5z+p3Rq54YvLs17nv2ylx/jN5zZAlFo4DxHe0v9HvJKLzpcZNhAetb1Rd6szJvWvPzDfJB/d+0OJ7z3zsVVE2Dt21jNsrY4/2/8HDDsu0hY9fuXPw0w==
+   eJztm0tOwzAQht2TIG7GOVix5Ra9QqsKWLLrhkORCFkdGf+ep+OkzS/NprHHY2c+P5L0lFI67bbbbv/suoIYIo0q0pdVPXyPHuNHsWu68XEvY19TpC+Lov2OHuNHsGuq83Ev41/KWx/pIiwn9Sv1J9FnSt+of9O1Y2BTYlnHeZRqfKQ0Pr+XYKR1nVOZx5fKb2tQjZFRbGxRiA+qLfGehWL29EXDgJaVGm9WX6UoI1I2Wm1eGjZKvdqX8JGEZdaoCK69434m9uX0NdV/of5KQ5oZ4dio9XPp3Je0FTl3cJLyEaml5xluH1bLs+dDeoto+1y09XRIRysjMxtTfbYvHvW6N2VOa3NcE1dkH3rysYZ1N6vH2ZxTyYaHEQkbUfFH3S+vn8i8sfqqvf/w+Nv1J8SGhREpG1s4d0v2g941kCoij9Gco13TrLF415m1rFFZHBsaRjxsoFxsnV96m2Rv+67whxSZDyPO3hHxr4mJLCkbEkasbKBczNLEt3azrDXT2fIfZx+F/RDj+MhjbV33Is4hXh/lcx/J3obWkZRHbFBJGfGwgcq2YtiycWtM7VmLxC96f94abykjUTxEqJZr3N6mrMOVl+RlFmKE3lMLG5K2UbloQxrBDxXNKSkjqD/0nlOfkeen3mrNwyjnUR1UXsNGYq4hWdgYwYelL7V65W9lDi4RU4uPVhuoXe7MtJQ08/Cc83T9nfemtE4WLd86c/aShQ10DznWND4jctGi6JiQJN8nauMdLc04teYGqV9Jv3t9l2LJE27u0/odkSuWmCz7dfR9e03IfySvEdLEgjiQ+Pb21/udhHe+5Ljx8MD1rVa3duZE79oj863lA70f1PjeMh9blZeNXTfN4/YK7N7+P7jbbpE28/ELP9LlcA==
   </data>
  </layer>
  <layer id="1" name="Don't Touch" width="200" height="20">
