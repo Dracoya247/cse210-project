@@ -1,9 +1,9 @@
 # SUPER MILKBOY 
-A fun little Mario clone.
+A fun little platformer.
 
 ## Getting Started
 ---
-[how to install and run the program]
+Download and run the folder "Milkboy" in VS Code.
 
 ## Project Structure
 ---
@@ -26,4 +26,10 @@ root                    (project root folder)
 
 ## Authors
 ---
-[list author names and emails]
+Aria Menke: aria_menke@byui.edu
+
+Ezra Vizcarra: 
+
+Daniel Gomez:
+
+Michael Romero: 
