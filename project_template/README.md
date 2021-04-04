@@ -9,13 +9,21 @@ Download and run the folder "Milkboy" in VS Code.
 ---
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)
+project_template        (project root folder)
 +-- docs                (project documentation)
-+-- rename              [src code files - rename for project]
++-- Milkboy             [src code files - rename for project]
+  +-- .vscode
   +-- assets            (program asset files)
-  +-- data              (program data files)
+  +-- data              (program data files) 
+  +-- images
+  +-- maps
+  +-- .gitignore
   +-- __init__.py       (python package file)
   +-- __main__.py       (entry point for program)
+  +-- beta_test_map
+  +-- milkboy_alpha
+  +-- milkboy_beta
+  +-- test1
 +-- LICENSE             (license file)
 +-- README.md           (general info)
 ```
