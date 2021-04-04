@@ -23,6 +23,7 @@ project_template        (project root folder)
   +-- beta_test_map
   +-- milkboy_alpha
   +-- milkboy_beta
+  +-- milkboy_stable
   +-- test1
 +-- LICENSE             (license file)
 +-- README.md           (general info)
