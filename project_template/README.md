@@ -1,5 +1,5 @@
 # SUPER MILKBOY 
-A fun little platformer.
+A fun little platformer about a carton of milk.
 
 ## Getting Started
 ---
