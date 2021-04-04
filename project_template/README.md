@@ -37,7 +37,7 @@ project_template        (project root folder)
 ---
 Aria Menke: aria_menke@byui.edu
 
-Ezra Vizcarra: 
+Ezra Vizcarra: viz19001@byui.edu
 
 Daniel Gomez:
 
