@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.5.0" name="screen_tileset" tilewidth="128" tileheight="128" tilecount="68" columns="0">
+<tileset version="1.4" tiledversion="1.4.3" name="screen_tileset" tilewidth="128" tileheight="128" tilecount="84" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie.png"/>
@@ -204,5 +204,53 @@
  </tile>
  <tile id="67">
   <image width="128" height="128" source="../images/letters/letters-Z.png"/>
+ </tile>
+ <tile id="68">
+  <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_choc_corner.png"/>
+ </tile>
+ <tile id="69">
+  <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_snow_corner.png"/>
+ </tile>
+ <tile id="70">
+  <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_choc_edge.png"/>
+ </tile>
+ <tile id="71">
+  <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_snow_edge.png"/>
+ </tile>
+ <tile id="72">
+  <image width="128" height="128" source="../images/cookie_tiles/green_cookie_choc_corner.png"/>
+ </tile>
+ <tile id="73">
+  <image width="128" height="128" source="../images/cookie_tiles/green_cookie_snow_corner.png"/>
+ </tile>
+ <tile id="74">
+  <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_choc_edge.png"/>
+ </tile>
+ <tile id="75">
+  <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_snow_edge.png"/>
+ </tile>
+ <tile id="76">
+  <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_choc_corner.png"/>
+ </tile>
+ <tile id="77">
+  <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_snow_corner.png"/>
+ </tile>
+ <tile id="78">
+  <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_choc_edge.png"/>
+ </tile>
+ <tile id="79">
+  <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_snow_edge.png"/>
+ </tile>
+ <tile id="80">
+  <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_choc_corner.png"/>
+ </tile>
+ <tile id="81">
+  <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_snow_corner.png"/>
+ </tile>
+ <tile id="82">
+  <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_choc_edge.png"/>
+ </tile>
+ <tile id="83">
+  <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow_edge.png"/>
  </tile>
 </tileset>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="19" height="14" tilewidth="128" tileheight="128" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="14" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d07b7b" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" source="screen_tileset.tsx"/>
  <layer id="1" name="Platforms" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxTYmBgUKIiZqSyfkoAutmD1SwNBoYF5JgD1HdgqPiRmmbhCy9FPOYghxchoIiECbmLWHPwmUfLPEQNDAAUNhLm
+   eJxTYmBg4AViRiAWB2IlHHwlKJ8RD58Yc/DpR+bD9FECYObB7KcEwNwH8wclAD28NBgYFpBjDlDfAVqEFzXNgrmNEoCexvCFlyIec0DhBTOHEFBEwrgALE0Qaw4+87ClfUrzELF5khhzAKURDBk=
   </data>
  </layer>
  <layer id="2" name="Background" width="19" height="14">
@@ -13,7 +13,7 @@
  </layer>
  <layer id="3" name="Ladders" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwkojJo1atYAAABltwDh
+   eJxjYBgFgwUoUFHdqFnDw6zBAgDjRgHB
   </data>
  </layer>
 </map>

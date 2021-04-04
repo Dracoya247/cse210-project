@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ffffc8" nextlayerid="11" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
@@ -130,9 +130,10 @@
    <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow.png"/>
   </tile>
  </tileset>
+ <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJACAMAEHtdApHcv9tbFxAIj7EP0j/IUVKkUSrdIC+1emAy7LtE9XoAElHxh6xvIFe8EdLMZMOUBoLvisA0A==
+   eJzt1TENACAMRFFGUIEkTOBfAwsOIPy0/Jd0vms6tBRJ0q8aXeCybPucqnD+hPOlaPoesbyBXqB/tBTdoAsojQWjNgEz
   </data>
  </layer>
  <layer id="10" name="Ladders" width="90" height="15">
@@ -147,12 +148,12 @@
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt10EKgDAMAMH8/yP5ptfiQYQ0EXUGSq9hWyiNgGv59AA/oTNvlMuiT552eug8Q2eo8/bSwZ2aofM91X/Grs7O6/sOX7INDQ==
+   eJzt10EKACAIRFHvfxGv2TZaBeaI+R9IS2FMIjN04EN7K/lWVf2Bbqr3Zgo/TuQgZw1yBuJ4e5GBO6XxKuff5xX9Z5Azbi2A7BBQ
   </data>
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztlgEKwyAMRfWmu9auMtlg0IMNYYLNEv3WX3XQB6ErNdF8Y5x3FyPwk/1H8c6sNq7mj8Rp8a/F9JmtAqqHzNP63qonCy0PZI+tMUi+pf2fpYOktI6V6lCyin4MUJ1Z/ainP7J4KSa/Iz7SV4sVsfrqyPPIPv+bc7eSJtGeZEug4/6dqDFbQ6bOd2PdaK09vsYGqc3WOtUYUWtH/pOl/C00DTYgbhBz9NbXSrTq3JM/em84w7805iyC2++/fLd88mdaI6ozqnFOTz9jaBicrpX2u5dSX8rrjHVPl+bSdGaBxENq6uiaamfuzDt4FKy5e+LM0PmyX/sAvJdAuQ==
+   eJztlmEOwiAMhetZvJhH8xwSjSa7y+IvrzBJRoJY4FEKw7gvabYFWuijwGbaac282j/w8CzXL+ePxPGxGj8T/pKYW4PqEeYZa9fIXVLLXB7IesT6IPmm1n+UGkjN40V07zWPUkbRryeSupHUPAHttdwYC9sRn9CXi5Wi537U3v8T0SmlibWrsjnQfr+O1fh40Nextc5orV1W0wapTd8QjTl61Jrk/9nlH4PTYALimmAMaW2OSKnO0vzfPueSe4MbI6SHtoY+1z/8jvn4TzdHVGdUY5+a80xDQ0O8Vtx7Lalzyemsdf7lxuJ01kIrnjRGbs+1vIN7oTV2TZwtdN7t2xYxXkbu
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">

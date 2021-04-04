@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#4a2b0a" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
@@ -137,7 +137,7 @@
  </layer>
  <layer id="3" name="Coins" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztmVsOxCAIRd3s7K3LnF9jREG5CMpJJk07lpfgq6UkSfICX/VD66mvSRIBZG3UslsdWjqz3pKocGtPI8et6sRirtVgZmcUPyLxlfl6zDJPqXukDZTvbWy+wXNOHDk6e+3qq4bMSHj3x7t9GliNy9zxp9W3or/3/um+XLHDi+09LGzy4Dc6/id8ROjciZN0ftXUHZ1b/fbql3WOInLba2xRRPJ3Zb/hDc6eS0P+rizKRuo/zvtR0TovvikmSGY1oiHbau06OksZ2ReRqHafxlufS+xZraXR/ILQdwMzn2+MCXK8/inL88LqWZqkrVQ+Csma9HUyRnLa83LpO9y2L/XNDft4KS/4eJIbcqndH3JrhGrXu0/8cOqbJ3cfgThb3z2TpOpDSzd6rXrDOLVKJJ9P7bVPxaiXk9QztA3c+S46I18R/nFyWkPvC30ngTvma8We850hArtz5c76iqpJq/EPJTfq+iOq3UnimT8dcbOO
+   eJztmVkOhSAMRd3/Slymv4ZQaKHThZ7kxejDTlAo+DxFUdzA+/tZ6/lfiwIBy9z4y251aOmsfCtQ4eaexhj3yhOPtVaDmZ0ofiDxPvN6zHOcUveWNlC+t7F5B885ceTo7LX7XzVkIpHdn+z2aeA1L3Pnn1bfiv7e+9F9uWJHFtt7eNiUwW/r+Ef4aKFzJ07S9VVTNzqn+p3VL+8xajG2s8bWCiR/V/Yb2eDsuTTk78qibKT+47yPitZ58UkxsWSWIxqyvWrX0VnKyD5EUO2OJlufS+xZzaXR+mKh7wRmPp8YE/R6L4LVszRJW6l8KyQ16e1UjOS05+XSd7htb+qbE/bxUm7wMZITxlK7P+TmCNWud1/kIeqbJ3cfYXG2vnsmSeWHlm7rWvWEeWoVJJ+j9tpRMeqNSeqZtQ3c9Q6dka8W/nHGtIbeG/pOAnfO14o95zsDArtr5U59ReWk1/xnJRe1/kC1uygy8wE+R7Mp
   </data>
  </layer>
  <layer id="6" name="Breakable" width="200" height="20">

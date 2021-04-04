@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="200" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#d9c2ff" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
  <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
   <grid orientation="orthogonal" width="1" height="1"/>
@@ -157,7 +157,7 @@
  </layer>
  <layer id="4" name="Foreground" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt2dEJgzAQANCMWqj72G7QQfLR0WpBQaQxRapJ43twKMGPI3jJGUMAACZd6QQAAHaizwFow3s9j2NAC+6JAKiZfbh9cRHdbJy8EvPk3AOArWLiHiDHORZ8NtTFpXQOhHAdr1N/c/R381n6qj6E5/DOP759Xn3kpf4brQV1Uh+/18+C/6c+2GLPHqumfXatPpb53Q7KCc7sBR3GK/Y=
+   eJzt2dEJgzAQANCMWqj7SDfoIPnoaLWgIGJMkaZJ0/fgUCQfh3jJJYYAACyG2gkAABSizwHow2s+j3NAD26JAGiZdbh/cRPD6jl5Nd6Tcw8AzoqJe4Ac51iwb6qLS+0cCOE6X5f+5tv75n/pq8YQHtM3f393vPrIS/03OgrapD4+b1wFv099cEbJHquldfaoPrb5mROhvCcaXiv1
   </data>
  </layer>
 </map>
