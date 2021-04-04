@@ -3,7 +3,7 @@ A fun little platformer about a carton of milk.
 
 ## Getting Started
 ---
-Download the folder "Milkboy" and run "milkboy_stable.py" in VS Code to play the current game.
+Download the folder "Milkboy" and run "milkboy_stable.py" in VS Code to play the current game. Use the arrow keys to move!
 
 ## Project Structure
 ---
