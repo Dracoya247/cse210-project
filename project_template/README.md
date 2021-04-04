@@ -3,7 +3,7 @@ A fun little platformer.
 
 ## Getting Started
 ---
-Download and run the folder "Milkboy" in VS Code.
+Download the folder "Milkboy." Run "milkboy_stable" in VS Code.
 
 ## Project Structure
 ---
