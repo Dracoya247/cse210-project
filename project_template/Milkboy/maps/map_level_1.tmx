@@ -133,7 +133,7 @@
  <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="4" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+wHqgHTAKRjRIQWL7D5grRsEoGAW4AOdAO2CIghTCSkYsAKWp0fJ+FBACo3lo6ANQPgfl96ESl6P13SigN+CgUJ5cQElaR87P8lBMLKCVf0bB8AUA33MDoA==
+   eJzt1cENABAMhWFHZjKEJbr/DNKbizQhNOX/ThI9VPSREnBH9W4AX5Nh3dy6ADBTvBsISuySb+lM8d7DQobi05xr3qPcJf8dbsub+6u8Zv3UefCuDlfoAv4=
   </data>
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
@@ -148,7 +148,7 @@
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztV1EKwjAMTcDbKJ5pR/Fc+/IMFRx6lgmuaKHGpk1KOqfuQRhsXfbymqSZgxWtgQid+zSJP8CqM8AVoBum69DwG7U67/HBa7oeuDWefy0vC/RP4555+BhcZBQhzthyMXPQ6szxpvAa7/D9PuVM86gnxuGcsRRniU8tSnsYY4NwtO4bQePYr2V8SwMm8ikFqkeNJnFuBo0t9886Fy0xCtfl9JDU5RIxx56EvBqB74exfeO8odWROw8CWucTre+l5K3VuWWV19SP1m+pj/oeL+3z4fsxh1PBuPd+DdrzKqVHbr5p0ZMu0zxT2j+6j1bQ5AKdJx2kOd4M+Fjr7DXe4uu/Rc4otDHV1Bj3DsdROq/kYKmzVuNU/pRi4mrBom5yOkt9c2u4WqkxrcZzmgR3VNrn2w==
+   eJztlmEKwjAMhbPzKJ7Jo3iugeAZKjjcBfwz8AITbHGFGJs2LalO3QdhoF2bvL52MbBQmwFgaz6dxB+w6AzQWw06++wqrlGq86Z55GWfO26My780Lw3aKbj/HK4GV/9+CoqvE0esZo5cnbm8KU7jdfP6O82Z+qglwXGKRChnyZy5pPYQcwU4aN8bXmPsD8365kYT8FMIrHPpnmNveo1D57AUbS9qMgrHxfwsOZdz5B174n01An8fDii+sd/I1ZH7Hnhq++kCzzrPxbda3y0tX9N5cuelOlPcHS+95/36OIdjIrj3fo2UzpSQHrH+psaddLb9TGr/6D5qkeMF2k8aCOd4U8hHW2en8Qr1M1wYZu3cmkrOGPcOl6u0X4mhqbNUY6w19U6qJu4saJybmM7Subkx3FkpiRyNNcKQiI2VcAer7+dC
   </data>
  </layer>
  <layer id="3" name="Don't Touch" width="90" height="15">

@@ -153,7 +153,7 @@
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztllEOwiAMQOtZvJhH8xwSjUt2l316BbdEklpbKKUg0b2kcW60yFvHXABgYWLHj39yOqHIjcvla+pgftGz1sckHNNzJT4loueS+8StQ5MrjdGsl+ZZ+6olqd/xALiP2s+j+PNC49nSN5aeB8X1Wm5M0OuaHJrL1cJQzz2fR+/nfwY4pZxscXWOSG7cqPtGKZvj48HfY2vP2l67vMIbTW/i0DjmkM57YvlfF9cvwTmYFXUDmcPamyNS6tm6/jXnXPLe4Oag9HAb4P3+0+9SDv4s3Z+1jjE1+5mHwwC8K+64ltS+FD177X+5uTjPXnjVs9bIPXMt38G98Jq7ps43PO/xGU8PGE6W
+   eJztlm0OgjAMhutZvJhH8xwSjCTcgp/+4BpKYpPatFu7lYEfb/LGMdayPXTDGQBmwX/FaYLfYToQ58bl4i15qL6Rs5XHoLR5n4enJuTseU/SOiyx2hjLenlcaV2tqdQ87gC3vdbzXvhFycK5pG5Kah4M92t1FczvW2J4rJSLinNuuR+j9/8IcEoxWTwJ7on5da/EoFE8hsft9dzwamF8PKSZSCxqjdLu5zhba+3ycrQstUmNjC1MqLT+SJXUM65fk8RgNOTt2DN4bab2ZI7l1vJy9u5N7HvGnD3fDfoMjV8Lth28v39+rcXQX+/5bGVMJdUeynpm1qgDmZXUrpU2V8rZc/55ONM5aN+NKEXlK80hxeV41XiLM5LumYg8JWtozflT3bO25b/z5Bj3AOAoY2Y=
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="14" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#cfd6ff" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" source="screen_tileset.tsx"/>
- <tileset firstgid="85" source="general_tileset.tsx"/>
+ <tileset firstgid="87" source="general_tileset.tsx"/>
  <layer id="2" name="Background" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBj8QIyB4QCpeCDcaQvE9kBsBcT6QGxDpjnmQGwMxGZAbArEOkBsCcTOVHDjKKAt4CFR/Q6auIL6AACRcA5B
+   eJxjYBj8QIyB4QCpeKDdPJiALRDbA7EVEOsDsQ2Z5pgDsTEQmwGxKRDrALElEDtTwY0jFewaaAcQCQD6sg43
   </data>
  </layer>
  <layer id="1" name="Platforms" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxTYmBgUKIiDmJgOKBOAQbqT4CZBeQvYKAAqNPBLC4i9SOro4e7qG0WIX+iyw+UHwm5UwuazqjhLhigtlnAPLBAHWImRZia+RoA3AEoBQ==
+   eJxTYmBg4AViJSrRQQwMB/iAWJ1MGqg/AWYekL+AgQIA1J8Ac5c6hWap08FdfkD/A3ECPr3oatDdxY1Qt8CPgDuQ1XDjcRc5gJbhxU1IAw4A0qcFTWf43MWFBeMD1AgvGAC5yxNoljrEfQyU0NTM1wCZFSkt
   </data>
  </layer>
  <layer id="3" name="Foreground" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAPwoNHDCQAAGGgAGQ==
+   eJxjYBgFlAAeCG6gghoFJPYCctVA5RKQ2A/IVYMk7wDEByhVMwqGLgAAv6cHwQ==
   </data>
  </layer>
 </map>
