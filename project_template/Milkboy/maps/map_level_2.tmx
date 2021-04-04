@@ -133,7 +133,7 @@
  <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1TENACAMRFFGUIEkTOBfAwsOIPy0/Jd0vms6tBRJ0q8aXeCybPucqnD+hPOlaPoesbyBXqB/tBTdoAsojQWjNgEz
+   eJzt1rsJACAMRdGUOoUjZQn3n8FGsA0iPj/3QLB9IUhiBgD4VVYHWOy1fmbV/iZpipEDQOw/lF7QYgbYQb2jgdu5nX9rujoAQhr6RAKu
   </data>
  </layer>
  <layer id="10" name="Ladders" width="90" height="15">
@@ -143,7 +143,7 @@
  </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl1EKwCAIhr3/SdYtI9hDSLM0NWt94EvhtN8kBwCQXmvxtT66H4WnMrzG9ef41VA6a0HlJ81byz8a3LNIz8+9Y1y/KFD3bvYb1mjF9Mj/tD68jPPnuidklpyqs2Sek2o9UqtTdfbGYw7HMaQxqVlcY87ejVafUL1jUesddbZ+B3b5ty30tCh70hp7vLeR49f0dJzReTWRdC5gHVe8Db0ZxmsevfiSAf4iQ8c=
+   eJztl0sOwCAIRL3/SeotG3fGGJDfKLYvcVNDwUEClmKjGu1RPN0av0ntJXY9tcTrRcWnjdvLHsWqztKzaM8vvWNSu1Og7p31H9F4+UTEn6UOf/z5ct7rsCK5VWdOt9m+VuuVXN2qMxrEHD760PqkZnGPOTsbszqhaici1xl1ju4DWd62DU6LtqfNMaLfnuy/h9PRovNuTtK5Meq4ozdwMwxqHv3B8gJuy0Me
   </data>
  </layer>
  <layer id="6" name="Breakable" width="90" height="15">
@@ -153,7 +153,7 @@
  </layer>
  <layer id="1" name="Platforms" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztlmEOwiAMhetZvJhH8xwSjSa7y+IvrzBJRoJY4FEKw7gvabYFWuijwGbaac282j/w8CzXL+ePxPGxGj8T/pKYW4PqEeYZa9fIXVLLXB7IesT6IPmm1n+UGkjN40V07zWPUkbRryeSupHUPAHttdwYC9sRn9CXi5Wi537U3v8T0SmlibWrsjnQfr+O1fh40Nextc5orV1W0wapTd8QjTl61Jrk/9nlH4PTYALimmAMaW2OSKnO0vzfPueSe4MbI6SHtoY+1z/8jvn4TzdHVGdUY5+a80xDQ0O8Vtx7Lalzyemsdf7lxuJ01kIrnjRGbs+1vIN7oTV2TZwtdN7t2xYxXkbu
+   eJztllEOwiAMQOtZvJhH8xwSjUt2l316BbdEklpbKKUg0b2kcW60yFvHXABgYWLHj39yOqHIjcvla+pgftGz1sckHNNzJT4loueS+8StQ5MrjdGsl+ZZ+6olqd/xALiP2s+j+PNC49nSN5aeB8X1Wm5M0OuaHJrL1cJQzz2fR+/nfwY4pZxscXWOSG7cqPtGKZvj48HfY2vP2l67vMIbTW/i0DjmkM57YvlfF9cvwTmYFXUDmcPamyNS6tm6/jXnXPLe4Oag9HAb4P3+0+9SDv4s3Z+1jjE1+5mHwwC8K+64ltS+FD177X+5uTjPXnjVs9bIPXMt38G98Jq7ps43PO/xGU8PGE6W
   </data>
  </layer>
  <layer id="4" name="Don't Touch" width="90" height="15">
@@ -163,7 +163,7 @@
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt1bEJACAQA8Df0CVcyI2ttRJSKHIHKR/ShK8CAH7Sw/uxBciluwQAVq//1na7AEcmyzEDwA==
+   eJztw7EJAAAIA7D+v/mxY8ETJIEkAAA1JwAAwEcLdCMCRQ==
   </data>
  </layer>
 </map>

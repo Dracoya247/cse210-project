@@ -204,6 +204,7 @@ class MyGame(arcade.Window):
         self.view_left = 0
 
         self.end_of_map = 0
+        self.left_of_map = 0
 
         # Keep track of the score
         self.score = 0
@@ -211,8 +212,11 @@ class MyGame(arcade.Window):
         # Where is the right edge of the map?
         self.end_of_map = 0
 
+        # Where is the left edge of the map?
+        self.left_of_map = 0
+
         # Level
-        self.level = 1
+        self.level = 0
 
         # Load sounds
         self.collect_coin_sound = arcade.load_sound(":resources:sounds/coin5.wav")
@@ -231,6 +235,9 @@ class MyGame(arcade.Window):
 
         # Keep track of the score
         self.score = 0
+
+        # Keep track of lives
+        self.lives = 5
 
         # Create the Sprite lists
         self.player_list = arcade.SpriteList()
@@ -252,7 +259,7 @@ class MyGame(arcade.Window):
         # --- Load in a map from the tiled editor ---
 
         # Name of map file to load
-        map_name = "maps/map_level_1.tmx"
+        map_name = "maps/map_level_0.tmx"
         # Name of the layer in the file that has our platforms/walls
         platforms_layer_name = 'Platforms'
         # Name of the layer that has items for pick-up
@@ -348,6 +355,12 @@ class MyGame(arcade.Window):
         score_text = f"Score: {self.score}"
         arcade.draw_text(score_text, 10 + self.view_left, 600 + self.view_bottom,
                          arcade.csscolor.BLACK, 18)
+
+        # Draw life count  on the screen, scrolling it with the viewport
+        life_text = f"Lives: {self.lives}"
+        arcade.draw_text(life_text, 10 + self.view_left, 550 + self.view_bottom,
+                         arcade.csscolor.BLACK, 18)
+
 
         # Draw hit boxes.
         # for wall in self.wall_list:
@@ -468,6 +481,8 @@ class MyGame(arcade.Window):
             self.player_sprite.center_x = PLAYER_START_X
             self.player_sprite.center_y = PLAYER_START_Y
 
+            self.lives -= 1
+
             # Set the camera to the start
             self.view_left = 0
             self.view_bottom = 0
@@ -482,6 +497,8 @@ class MyGame(arcade.Window):
             self.player_sprite.center_x = PLAYER_START_X
             self.player_sprite.center_y = PLAYER_START_Y
 
+            self.lives -= 1
+
             # Set the camera to the start
             self.view_left = 0
             self.view_bottom = 0
@@ -495,8 +512,33 @@ class MyGame(arcade.Window):
 
             # Load the next level
             self.setup(self.level)
+            self.lives = 5
 
             # Set the camera to the start
+            self.view_left = 0
+            self.view_bottom = 0
+            changed_viewport = True
+
+        # See if the user went left / selected "Play Again." Resets to level 1.
+        if self.player_sprite.center_x <= self.left_of_map:
+
+            self.level = 1
+
+            self.setup(self.level)
+            self.lives = 5
+
+            self.view_left = 0
+            self.view_bottom = 0
+            changed_viewport = True
+
+        # See if player is out of lives.
+        if self.lives <= 0:
+
+            self.level = 7
+
+            self.setup(self.level)
+            self.lives = 1
+
             self.view_left = 0
             self.view_bottom = 0
             changed_viewport = True

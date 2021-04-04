@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="screen_tileset" tilewidth="128" tileheight="128" tilecount="84" columns="0">
+<tileset version="1.4" tiledversion="1.4.3" name="screen_tileset" tilewidth="176" tileheight="128" tilecount="85" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie.png"/>
@@ -252,5 +252,8 @@
  </tile>
  <tile id="83">
   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow_edge.png"/>
+ </tile>
+ <tile id="85">
+  <image width="176" height="128" source="../images/milkboy_spilt.png"/>
  </tile>
 </tileset>

@@ -4,12 +4,12 @@
  <tileset firstgid="85" source="general_tileset.tsx"/>
  <layer id="2" name="Background" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBj8QIyB4QCpeCDcaQvE9kBsBcT6QGxDpjnmQGwMxGZAbArEOkBsCcTOVHDjKKAt4BloB9AIAAAYsA2J
+   eJxjYBj8QIyB4QCpeCDcaQvE9kBsBcT6QGxDpjnmQGwMxGZAbArEOkBsCcTOVHDjKKAt4CFR/Q6auIL6AACRcA5B
   </data>
  </layer>
  <layer id="1" name="Platforms" width="19" height="14">
   <data encoding="base64" compression="zlib">
-   eJxTYmBgUKIiDmJgOKBOAQbqT4CZBeQvYKAAqNPJLC4CetHl6eUuapo1VPxIyJ1a0HRGDXfBACVm7cBiFjAPLFCHmEkRpma+BgBU0Ci9
+   eJxTYmBgUKIiDmJgOKBOAQbqT4CZBeQvYKAAqNPBLC4i9SOro4e7qG0WIX+iyw+UHwm5UwuazqjhLhigtlnAPLBAHWImRZia+RoA3AEoBQ==
   </data>
  </layer>
  <layer id="3" name="Foreground" width="19" height="14">

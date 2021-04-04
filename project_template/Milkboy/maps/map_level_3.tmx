@@ -133,7 +133,7 @@
  <tileset firstgid="219" source="screen_tileset.tsx"/>
  <layer id="5" name="Background" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJztzjERACAMBLA6xASHB9zjgKHLd0gUpAoAAAAAmG6lAwBA204HYLCbDgBfJx0AAAAAAAAAIh5Y+wGT
+   eJzt18EJgEAMBMB0aBNiD/ezdBUs4AQ10ZuB/DeQxyYCAAAAAKhsOgcA+KY5OwBEzTs8Om4LXfevKt4c1y3ZAQAA6KJ/AwAAT9h/jTU7w11G+JtG2BF41wbcVgVY
   </data>
  </layer>
  <layer id="3" name="Coins" width="200" height="20">
@@ -158,7 +158,7 @@
  </layer>
  <layer id="4" name="Foreground" width="200" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt17ENgCAQBVA2ZAjdh7iPw9lYGTBRCk55L/mh/ZdcwaUEAAAAAESWRxcAAODz1tEFKvLl5V8i7hzP7WcAAIjN/xsAANga6bH0lgpkhrtphhnfKo0A9w5LbAt9
+   eJztwyEOACAMBLD7v1n4D4/DYBCbRrRJEwAAAAAAAAAAeO0bAAAAAIC/rSaQVBOYHdC3CDk=
   </data>
  </layer>
 </map>
