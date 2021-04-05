@@ -512,7 +512,7 @@ class MyGame(arcade.Window):
 
             # Load the next level
             self.setup(self.level)
-            self.lives = 5
+            self.lives = 3
 
             # Set the camera to the start
             self.view_left = 0
@@ -525,7 +525,7 @@ class MyGame(arcade.Window):
             self.level = 1
 
             self.setup(self.level)
-            self.lives = 5
+            self.lives = 3
 
             self.view_left = 0
             self.view_bottom = 0
