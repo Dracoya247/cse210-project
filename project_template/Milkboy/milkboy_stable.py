@@ -237,7 +237,7 @@ class MyGame(arcade.Window):
         self.score = 0
 
         # Keep track of lives
-        self.lives = 5
+        self.lives = 3
 
         # Create the Sprite lists
         self.player_list = arcade.SpriteList()
