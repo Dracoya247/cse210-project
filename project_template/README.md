@@ -41,4 +41,4 @@ Ezra Vizcarra: viz19001@byui.edu
 
 Daniel Gomez:
 
-Michael Romero: 
+Michael Romero: rom19011@byui.edu
