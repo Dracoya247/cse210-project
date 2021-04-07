@@ -1,169 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#ffffc8" nextlayerid="11" nextobjectid="1">
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="90" height="15" tilewidth="128" tileheight="128" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" source="general_tileset.tsx"/>
- <tileset firstgid="177" name="cookie_tiles" tilewidth="128" tileheight="128" tilecount="42" columns="0">
-  <grid orientation="orthogonal" width="1" height="1"/>
-  <tile id="0">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie.png"/>
-  </tile>
-  <tile id="1">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_choc.png"/>
-  </tile>
-  <tile id="2">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half.png"/>
-  </tile>
-  <tile id="3">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half_choc.png"/>
-  </tile>
-  <tile id="4">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_half_snow.png"/>
-  </tile>
-  <tile id="5">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_snow.png"/>
-  </tile>
-  <tile id="6">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri.png"/>
-  </tile>
-  <tile id="7">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_choc.png"/>
-  </tile>
-  <tile id="8">
-   <image width="128" height="128" source="../images/cookie_tiles/blue_cookie_tri_snow.png"/>
-  </tile>
-  <tile id="9">
-   <image width="128" height="128" source="../images/cookie_tiles/cookie_bridgeA.png"/>
-  </tile>
-  <tile id="10">
-   <image width="128" height="128" source="../images/cookie_tiles/cookie_bridgeB.png"/>
-  </tile>
-  <tile id="11">
-   <image width="128" height="128" source="../images/cookie_tiles/frosting_snow.png"/>
-  </tile>
-  <tile id="12">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie.png"/>
-  </tile>
-  <tile id="13">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_choc.png"/>
-  </tile>
-  <tile id="14">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half.png"/>
-  </tile>
-  <tile id="15">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half_choc.png"/>
-  </tile>
-  <tile id="16">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_half_snow.png"/>
-  </tile>
-  <tile id="17">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_snow.png"/>
-  </tile>
-  <tile id="18">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri.png"/>
-  </tile>
-  <tile id="19">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_choc.png"/>
-  </tile>
-  <tile id="20">
-   <image width="128" height="128" source="../images/cookie_tiles/green_cookie_tri_snow.png"/>
-  </tile>
-  <tile id="21">
-   <image width="128" height="128" source="../images/cookie_tiles/pep_spikes.png"/>
-  </tile>
-  <tile id="22">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie.png"/>
-  </tile>
-  <tile id="23">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_choc.png"/>
-  </tile>
-  <tile id="24">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half.png"/>
-  </tile>
-  <tile id="25">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half_choc.png"/>
-  </tile>
-  <tile id="26">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_half_snow.png"/>
-  </tile>
-  <tile id="27">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_snow.png"/>
-  </tile>
-  <tile id="28">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri.png"/>
-  </tile>
-  <tile id="29">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_choc.png"/>
-  </tile>
-  <tile id="30">
-   <image width="128" height="128" source="../images/cookie_tiles/pink_cookie_tri_snow.png"/>
-  </tile>
-  <tile id="31">
-   <image width="128" height="128" source="../images/cookie_tiles/pretzel_ladder.png"/>
-  </tile>
-  <tile id="32">
-   <image width="128" height="128" source="../images/cookie_tiles/velvet_cake.png"/>
-  </tile>
-  <tile id="33">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie.png"/>
-  </tile>
-  <tile id="34">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_choc.png"/>
-  </tile>
-  <tile id="35">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half.png"/>
-  </tile>
-  <tile id="36">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half_choc.png"/>
-  </tile>
-  <tile id="37">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_half_snow.png"/>
-  </tile>
-  <tile id="38">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_snow.png"/>
-  </tile>
-  <tile id="39">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri.png"/>
-  </tile>
-  <tile id="40">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_choc.png"/>
-  </tile>
-  <tile id="41">
-   <image width="128" height="128" source="../images/cookie_tiles/yellow_cookie_tri_snow.png"/>
-  </tile>
- </tileset>
- <tileset firstgid="219" source="screen_tileset.tsx"/>
- <layer id="3" name="Background" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt1rsJACAMRdGUOoUjZQn3n8FGsA0iPj/3QLB9IUhiBgD4VVYHWOy1fmbV/iZpipEDQOw/lF7QYgbYQb2jgdu5nX9rujoAQhr6RAKu
-  </data>
- </layer>
- <layer id="10" name="Ladders" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt0EENACAQwLDzrw5JeOAxSGgVLJsBADizbgd8wueGzw2fGz43fG743PC54fNbNqckB1E=
-  </data>
- </layer>
  <layer id="2" name="Coins" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztl0sOwCAIRL3/SeotG3fGGJDfVKwvcVNDwUEClmKjGu1RPN0av0ntJXY9tcTrRcWnjdvLHsWqztKzaM8vvWNSu12g7p31H9F4+UTEn6UOL/78Oe91WJGcqjOn22xfq/VKrk7VGQ1iDh99aH1Ss7jHnJ2NWZ1QtROR64w6R/eBLG/bBqdF29PmGNFvd/bfw+lo0flrdtK5QemI6g3cDIOaRy9YXrHAQSY=
+   eJztmEkOwCAIAPn/S/SXPbQHQyjKoqJhEi4YyqJQIwBA/YTiTz+6HoXSCNZJ7SV2LVydveDi08btZR8NaS7a/KVnTGoXBe7cWb8xGy+fK+K/rQ+TZISKJJGjuc9pa517tY4VNcY+rD7zH/ZC9QnXO1jncR84cS9mz5aT5lavFpZcds/w3f5bbnkPoYhUZwrL24sWag6XznpyPg+YDjnv
   </data>
  </layer>
- <layer id="6" name="Breakable" width="90" height="15">
+ <layer id="3" name="Background" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJzt10EKACAIRFHvfxGv2TZaBeaI+R9IS2FMIjN04EN7K/lWVf2Bbqr3Zgo/TuQgZw1yBuJ4e5GBO6XxKuff5xX9Z5Azbi2A7BBQ
-  </data>
- </layer>
- <layer id="1" name="Platforms" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJztlm0OgjAMhutZvJhH8xwSjCTcgp/+4BpKYpPatFu7lYEfb/LGMdayPXTDGQBmwX/FaYLfYToQ58bl4i15qL6Rs5XHoLR5n4enJuTseU/SOiyx2hjLenlcaV2tqdQ87gC3vdbzXvhFycK5pG5Kah4M92t1FczvW2J4rJSLinNuuR+j9/8IcEoxWTwJ7on5da/EoFE8hsft9dzwamF8PKSZSCxqjdLu5zhba+3ycrQstUmNjC1MqLT+SJXUM65fk8RgNOTt2DN4bab2ZI7l1vJy9u5N7HvGnD3fDfoMjV8Lth28v39+rcXQX+/5bGVMJdUeynpm1qgDmZXUrpU2V8rZc/55ONM5aN+NKEXlK80hxeV41XiLM5LumYg8JWtozflT3bO25b/z5Bj3AOAoY2Y=
-  </data>
- </layer>
- <layer id="4" name="Don't Touch" width="90" height="15">
-  <data encoding="base64" compression="zlib">
-   eJzt0MENABEAAEE9cf3/1OUrF7wIYibZBjYEAOBluQrgdl8nzpQbwUhqxHzxF2v4vF8BfvMKCw==
+   eJxjYBgFo2AUDDRgHGgHjIIRCzgH2gFUBsT4ZwbNXTF4AMcA2q0/gHZTAmyR8CigHQCFrwzDaDijA3koHgUDC0bjYBTQAwxkHT0KRsFwAP4D7YBRMGwAADxVAuQ=
   </data>
  </layer>
  <layer id="5" name="Foreground" width="90" height="15">
   <data encoding="base64" compression="zlib">
-   eJztw7EJAAAIA7D+v/mxY8ETJIEkAAA1JwAAwEcLdCMCRQ==
+   eJzt1cEJACEMBEAbsQgrsQkbuo59K4gPwROdgXwCC/sJCQEAuElZzH/dvCb+XYArrd4lANA6/bfmwT5tbcFMBXNrBA4=
+  </data>
+ </layer>
+ <layer id="6" name="Breakable" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJACAMA8Dsv0jXdAPxoVbwboGWEEoTmKvuBT4hZwAAVlT8juynU3fIeU3ljVvXPZ/zBvtcBoc=
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
+<<<<<<< HEAD
+   eJztllEOwiAMhtmL6CnkVacxm3oO72A8hNfQN2/rSCBhtYWOMWaUL/kzN0rZ/ha3ShRyUM08/1/YdNo6qpGxGpmnqRwV0gLrQtWImueL+SaeRikofRjHamA812fdi0P7kOr7HP1884wdGHoA+WJbcG65miP1v5pzf7u1SLHeXoQ9VInVMuN+Be2xmkENM+5F3Lev19x9uTCCrI1i4fTm0D7FoK5zaRgxMd9k9vnPhDAPdkgeWAMJ1lCRys0UPo95fvc94dbgjgibD/GNpUKKfv3huQb6LMFRGUGfl8SaXI8tvnFOHpgvBilwr7DfsVifVacTIiX6fZbqPY0Bx0PxMXDycfZuKAfE9fkIpCZWDL5v3lDOsWtz8lyIOXP6XPSpN1ywRWw=
+=======
+   eJztltEOgyAMRfFl/EYfnduyuGQfu7+dJJJoQ8tVC7rFk9wMlRa4VFnjTmrQ7Bxfi+ugbtAt06/NxEfl8iyJz82tmegooH60Qpvfk3zXYi3g60D3WNqzTmhrcdM5LK2rUmh+H6kOOSnPfxXU51A/W79HaP2V9veZEH+OxES9lFwB6buKnhcWWL//D6d7EkTG6sF+/0LwmHYQ6vNHmDdaa5dR1iC1ubROU0j3UXqgz5r/ZHH9b0EpD+5AXs/GoJWqTQmft6x/ek5o54YT4rU+pfBuvv/8OsB99uyXRqE+ox5HtOdIHp5vDd6lvUq11xJ9JuE5uXmdWZ3T2lgkXFuA5ENqKpeDo/lMhWVNLqfV2FvypGLoVHV9AVb/Pw4=
+>>>>>>> ezra
+=======
+   eJztltEOgyAMRfFl/EYfnduyuL/d306SkWhDyxULusWT3AyVFrhUWedOWtDtHN+K66Rh0i3Tr8/ER+XyrInPza2b6SigfvRCm9+TfNdiLeDrQPdY2rNBaGtx8zmsrataaH4fqQ45Kc9/FdTnUD9bv0do/dX295kQf47ERL2UXAHpu4qeFxZYv/8Pp3sSRMYawX7/QvCYdhDq81uYN1prl6+sQWpzbZ2mkO6jjECfkv9kcf0SKQ/uQF7PxqBCtaaGz1vWPz8ntHPDCfFan1p4t9x/fh3gPnv2S1+hPqMeR7TnSB6erwTv0l6l2qVEn0l4Tm5ZZ1bntDYWCdcWIPmQmsrl4Gg+U2VZk8tpNfaWPKkYOtVcHy1FPdA=
+>>>>>>> ezra
+  </data>
+ </layer>
+ <layer id="4" name="Don't Touch" width="90" height="15">
+  <data encoding="base64" compression="zlib">
+<<<<<<< HEAD
+<<<<<<< HEAD
+   eJztwQEBAAAAgiD/r25IQAEAAAAAfBkVGAAB
+=======
+   eJzt0LkJACAQAEF70uKufFORw8gncAa2gS0FAPhZDAHATZEEKy2J/eoUZ/j8XgeDnwZd
+>>>>>>> ezra
+=======
+   eJzt0MENABEAAEE9cb0p31cueBHETLINbAgAwMtyFcDtvk6cKTeCkdSI+eIv1vB5vwKtWQeb
+>>>>>>> ezra
   </data>
  </layer>
 </map>
